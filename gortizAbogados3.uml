@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_taVkIMwqEeu7XeNvzCmsHw" name="gortizAbogados3">
+    <eAnnotations xmi:id="_thjmcMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_thjmccwqEeu7XeNvzCmsHw" source="codegen">
+        <details xmi:id="_thjmcswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados/src/main/java"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_t8yJ4MwqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yJ4cwqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yJ4swqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yJ48wqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yJ5MwqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yJ5cwqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yw8MwqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yw8cwqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_t8yw8swqEeu7XeNvzCmsHw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t7l3EMwqEeu7XeNvzCmsHw" name="es">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t7oTUMwqEeu7XeNvzCmsHw" name="mde">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7oTUcwqEeu7XeNvzCmsHw" name="comun">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9q6sMwqEeu7XeNvzCmsHw" name="Departamento">
+            <ownedAttribute xmi:id="_uBGpMMwqEeu7XeNvzCmsHw" name="nombreDepartamento">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBGpMcwqEeu7XeNvzCmsHw" name="empleados" visibility="protected" type="_t9xBUMwqEeu7XeNvzCmsHw" association="_uBfqwcwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uBGpM8wqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uBHQQMwqEeu7XeNvzCmsHw" key="generic_container"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBGpMswqEeu7XeNvzCmsHw" value="*"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBPMEMwqEeu7XeNvzCmsHw" name="getEmpleados" specification="_t9sv4MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBPMEcwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBPMEswqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return empleados;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBPME8wqEeu7XeNvzCmsHw" name="setEmpleados" specification="_uAwD4MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBPMFMwqEeu7XeNvzCmsHw" name="empleados" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <language>java</language>
+              <body>this.empleados = empleados;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBPMFcwqEeu7XeNvzCmsHw" name="Departamento" specification="_t9ulEMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBPMFswqEeu7XeNvzCmsHw" type="_t9q6sMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBPzIMwqEeu7XeNvzCmsHw" name="Departamento" specification="_uAwq8cwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBPzIcwqEeu7XeNvzCmsHw" name="nombreDepartamento">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBPzIswqEeu7XeNvzCmsHw" name="empleados" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBPzI8wqEeu7XeNvzCmsHw" type="_t9q6sMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.nombreDepartamento = nombreDepartamento;&#xD;
+		this.empleados = empleados;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t9sv4MwqEeu7XeNvzCmsHw" name="getEmpleados" method="_uBPMEMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9t-AMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9t-AcwqEeu7XeNvzCmsHw" key="generic_container"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9tW8MwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t9tW8cwqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9ulEMwqEeu7XeNvzCmsHw" name="Departamento" method="_uBPMFcwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9ulEcwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9vMIMwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9vMIcwqEeu7XeNvzCmsHw" type="_t9q6sMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uAwD4MwqEeu7XeNvzCmsHw" name="setEmpleados" method="_uBPME8wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uAwD4cwqEeu7XeNvzCmsHw" name="empleados" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uAwq8cwqEeu7XeNvzCmsHw" name="Departamento" method="_uBPzIMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uAxSAswqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uAx5EMwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uAxSAMwqEeu7XeNvzCmsHw" name="nombreDepartamento">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAxSAcwqEeu7XeNvzCmsHw" name="empleados" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAx5EcwqEeu7XeNvzCmsHw" type="_t9q6sMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9xBUMwqEeu7XeNvzCmsHw" name="Empleado">
+            <ownedAttribute xmi:id="_uBH3UMwqEeu7XeNvzCmsHw" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBH3UcwqEeu7XeNvzCmsHw" name="apellidos">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBH3UswqEeu7XeNvzCmsHw" name="dni">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBH3U8wqEeu7XeNvzCmsHw" name="tipoEmpleado">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBH3VMwqEeu7XeNvzCmsHw" name="sueldos" type="_t90rsMwqEeu7XeNvzCmsHw" association="_uBhf8MwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uBIeYMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uBIeYcwqEeu7XeNvzCmsHw" key="generic_container"/>
+              </eAnnotations>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBH3VcwqEeu7XeNvzCmsHw" value="*"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBIeYswqEeu7XeNvzCmsHw" name="departamento" type="_t9q6sMwqEeu7XeNvzCmsHw" association="_uBUEkMwqEeu7XeNvzCmsHw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBPzJMwqEeu7XeNvzCmsHw" name="Empleado" specification="_t9yPcMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBPzJcwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBPzJswqEeu7XeNvzCmsHw" name="Empleado" specification="_uA1jcMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBPzJ8wqEeu7XeNvzCmsHw" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBPzKMwqEeu7XeNvzCmsHw" name="apellidos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBPzKcwqEeu7XeNvzCmsHw" name="dni">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBPzKswqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBPzK8wqEeu7XeNvzCmsHw" name="sueldos" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBPzLMwqEeu7XeNvzCmsHw" name="departamento" type="_t9q6sMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBPzLcwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.nombre = nombre;&#xD;
+		this.apellidos = apellidos;&#xD;
+		this.dni = dni;&#xD;
+		this.tipoEmpleado = tipoEmpleado;&#xD;
+		this.sueldos = sueldos;&#xD;
+		this.departamento = departamento;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t9yPcMwqEeu7XeNvzCmsHw" name="Empleado" method="_uBPzJMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9yPccwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9yPcswqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9y2gMwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uA1jcMwqEeu7XeNvzCmsHw" name="Empleado" method="_uBPzJswqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uA2KhMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uA2KhcwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uA1jccwqEeu7XeNvzCmsHw" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA1jcswqEeu7XeNvzCmsHw" name="apellidos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA2KgMwqEeu7XeNvzCmsHw" name="dni">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA2KgcwqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA2KgswqEeu7XeNvzCmsHw" name="sueldos" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uA2Kg8wqEeu7XeNvzCmsHw" name="departamento" type="_t9q6sMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uA2KhswqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t90rsMwqEeu7XeNvzCmsHw" name="Sueldo">
+            <ownedAttribute xmi:id="_uBIeY8wqEeu7XeNvzCmsHw" name="CANTIDAD_BONUS" isStatic="true">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              <defaultValue xmi:type="uml:LiteralString" xmi:id="_uBJFccwqEeu7XeNvzCmsHw" value="300"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBJsgMwqEeu7XeNvzCmsHw" name="cantidadMensual">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBJsgcwqEeu7XeNvzCmsHw" name="horasExtras">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBJsgswqEeu7XeNvzCmsHw" name="bonus">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBJsg8wqEeu7XeNvzCmsHw" name="total">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBJshMwqEeu7XeNvzCmsHw" name="fechaSueldo" type="_uAF8kMwqEeu7XeNvzCmsHw" association="_uBUroMwqEeu7XeNvzCmsHw"/>
+            <ownedAttribute xmi:id="_uBKTkMwqEeu7XeNvzCmsHw" name="empleado" type="_t9xBUMwqEeu7XeNvzCmsHw" association="_uBVSscwqEeu7XeNvzCmsHw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBQaNMwqEeu7XeNvzCmsHw" name="Sueldo" specification="_t91SwMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBQaNcwqEeu7XeNvzCmsHw" type="_t90rsMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBQaNswqEeu7XeNvzCmsHw" name="getSueldoTotalMes" specification="_t91508wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBQaN8wqEeu7XeNvzCmsHw" type="_uA5N0MwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>int horas;&#xD;
+		if (horasExtras > 40) {&#xD;
+			horas = horasExtras - 40;&#xD;
+			cantidadMensual = cantidadMensual + (horas) * 10;&#xD;
+		}&#xD;
+		if (bonus = true) {&#xD;
+			cantidadMensual = cantidadMensual + CANTIDAD_BONUS;&#xD;
+		}&#xD;
+		return cantidadMensual;&#xD;
+&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBQaOMwqEeu7XeNvzCmsHw" name="Sueldo" specification="_uA6b8cwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBQaOcwqEeu7XeNvzCmsHw" name="cantidadMensual">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBQaOswqEeu7XeNvzCmsHw" name="horasExtras">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBQaO8wqEeu7XeNvzCmsHw" name="bonus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBQaPMwqEeu7XeNvzCmsHw" name="total">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBQaPcwqEeu7XeNvzCmsHw" name="fechaSueldo" type="_uAF8kMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBQaPswqEeu7XeNvzCmsHw" name="empleado" type="_t9xBUMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBQaP8wqEeu7XeNvzCmsHw" type="_t90rsMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+		this.cantidadMensual = cantidadMensual;&#xD;
+		this.horasExtras = horasExtras;&#xD;
+		this.bonus = bonus;&#xD;
+		this.total = total;&#xD;
+		this.fechaSueldo = fechaSueldo;&#xD;
+		this.empleado = empleado;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t91SwMwqEeu7XeNvzCmsHw" name="Sueldo" method="_uBQaNMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9150MwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9150cwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9150swqEeu7XeNvzCmsHw" type="_t90rsMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t91508wqEeu7XeNvzCmsHw" name="getSueldoTotalMes" visibility="protected" method="_uBQaNswqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uA6b8MwqEeu7XeNvzCmsHw" type="_uA5N0MwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uA6b8cwqEeu7XeNvzCmsHw" name="Sueldo" method="_uBQaOMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uA7DBcwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uA7DBswqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uA6b8swqEeu7XeNvzCmsHw" name="cantidadMensual">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA7DAMwqEeu7XeNvzCmsHw" name="horasExtras">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA7DAcwqEeu7XeNvzCmsHw" name="bonus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA7DAswqEeu7XeNvzCmsHw" name="total">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA7DA8wqEeu7XeNvzCmsHw" name="fechaSueldo" type="_uAF8kMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uA7DBMwqEeu7XeNvzCmsHw" name="empleado" type="_t9xBUMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uA7DB8wqEeu7XeNvzCmsHw" type="_t90rsMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t93vAMwqEeu7XeNvzCmsHw" name="Usuario">
+            <ownedAttribute xmi:id="_uBKTkcwqEeu7XeNvzCmsHw" name="email">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBKTkswqEeu7XeNvzCmsHw" name="username">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_uBK6oMwqEeu7XeNvzCmsHw" name="passwd">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBRBQMwqEeu7XeNvzCmsHw" name="Usuario" specification="_t949IMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBRBQcwqEeu7XeNvzCmsHw" type="_t93vAMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBRBQswqEeu7XeNvzCmsHw" name="Usuario" specification="_uA8RIMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBRBQ8wqEeu7XeNvzCmsHw" name="id" type="_uApWMswqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBRBRMwqEeu7XeNvzCmsHw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBRBRcwqEeu7XeNvzCmsHw" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBRBRswqEeu7XeNvzCmsHw" name="passwd">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBRBR8wqEeu7XeNvzCmsHw" type="_t93vAMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+&#xD;
+		this.email = email;&#xD;
+		this.username = username;&#xD;
+		this.passwd = passwd;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t949IMwqEeu7XeNvzCmsHw" name="Usuario" method="_uBRBQMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t949IcwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t949IswqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t949I8wqEeu7XeNvzCmsHw" type="_t93vAMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uA8RIMwqEeu7XeNvzCmsHw" name="Usuario" method="_uBRBQswqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uA84MMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uA84McwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uA8RIcwqEeu7XeNvzCmsHw" name="id" type="_uApWMswqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uA8RIswqEeu7XeNvzCmsHw" name="email">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA8RI8wqEeu7XeNvzCmsHw" name="username">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA8RJMwqEeu7XeNvzCmsHw" name="passwd">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uA84MswqEeu7XeNvzCmsHw" type="_t93vAMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBUEkMwqEeu7XeNvzCmsHw" name="" memberEnd="_uBIeYswqEeu7XeNvzCmsHw _uBUEkcwqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBUEkcwqEeu7XeNvzCmsHw" name="" type="_t9xBUMwqEeu7XeNvzCmsHw" association="_uBUEkMwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBUroMwqEeu7XeNvzCmsHw" name="" memberEnd="_uBJshMwqEeu7XeNvzCmsHw _uBVSsMwqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBVSsMwqEeu7XeNvzCmsHw" name="" type="_t90rsMwqEeu7XeNvzCmsHw" association="_uBUroMwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBVSscwqEeu7XeNvzCmsHw" name="" memberEnd="_uBKTkMwqEeu7XeNvzCmsHw _uBVSsswqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBVSsswqEeu7XeNvzCmsHw" name="" type="_t90rsMwqEeu7XeNvzCmsHw" association="_uBVSscwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBfqwcwqEeu7XeNvzCmsHw" name="" memberEnd="_uBgR0MwqEeu7XeNvzCmsHw _uBGpMcwqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBgR0MwqEeu7XeNvzCmsHw" name="" type="_t9q6sMwqEeu7XeNvzCmsHw" association="_uBfqwcwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBhf8MwqEeu7XeNvzCmsHw" name="" memberEnd="_uBhf8cwqEeu7XeNvzCmsHw _uBH3VMwqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBhf8cwqEeu7XeNvzCmsHw" name="" type="_t9xBUMwqEeu7XeNvzCmsHw" association="_uBhf8MwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7oTUswqEeu7XeNvzCmsHw" name="entidades">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t843kMwqEeu7XeNvzCmsHw" name="UsuarioConId">
+            <eAnnotations xmi:id="_t843kcwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t85eoMwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t85eocwqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_t_7kgMwqEeu7XeNvzCmsHw" general="_t93vAMwqEeu7XeNvzCmsHw"/>
+            <ownedAttribute xmi:id="_uBBJoMwqEeu7XeNvzCmsHw" name="id" type="_uApWMswqEeu7XeNvzCmsHw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMIx8wqEeu7XeNvzCmsHw" name="UsuarioConId" specification="_t85eoswqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBMIyMwqEeu7XeNvzCmsHw" type="_t843kMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t85eoswqEeu7XeNvzCmsHw" name="UsuarioConId" method="_uBMIx8wqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t86FsMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t86FscwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t86FsswqEeu7XeNvzCmsHw" type="_t843kMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9X_wswqEeu7XeNvzCmsHw" name="SueldoConId">
+            <eAnnotations xmi:id="_t9X_w8wqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9X_xMwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9X_xcwqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uAJm8MwqEeu7XeNvzCmsHw" general="_t90rsMwqEeu7XeNvzCmsHw"/>
+            <ownedAttribute xmi:id="_uBEM8MwqEeu7XeNvzCmsHw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMv28wqEeu7XeNvzCmsHw" name="getEmpleado" specification="_t9Ym0MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBMv3MwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>return super.getEmpleado();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBNW4MwqEeu7XeNvzCmsHw" name="SueldoConId" specification="_t9ZN48wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBNW4cwqEeu7XeNvzCmsHw" type="_t9X_wswqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBNW4swqEeu7XeNvzCmsHw" name="SueldoConId" specification="_uAtnoMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBNW48wqEeu7XeNvzCmsHw" name="cantidadMensual">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBNW5MwqEeu7XeNvzCmsHw" name="horasExtras">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBNW5cwqEeu7XeNvzCmsHw" name="bonus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBNW5swqEeu7XeNvzCmsHw" name="total">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBNW58wqEeu7XeNvzCmsHw" name="fechaSueldo" type="_uAF8kMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBNW6MwqEeu7XeNvzCmsHw" name="empleado" type="_t9xBUMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBNW6cwqEeu7XeNvzCmsHw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBNW6swqEeu7XeNvzCmsHw" type="_t9X_wswqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super(cantidadMensual, horasExtras, bonus, total, fechaSueldo, empleado);&#xD;
+		this.id = id;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBNW68wqEeu7XeNvzCmsHw" name="calcularTotal" specification="_t9Z08MwqEeu7XeNvzCmsHw">
+              <language>java</language>
+              <body>double total = getSueldoTotalMes();&#xD;
+		this.setTotal(total);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t9Ym0MwqEeu7XeNvzCmsHw" name="getEmpleado" method="_uBMv28wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uAHxwcwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9ZN48wqEeu7XeNvzCmsHw" name="SueldoConId" method="_uBNW4MwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9ZN5MwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9ZN5cwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9ZN5swqEeu7XeNvzCmsHw" type="_t9X_wswqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9Z08MwqEeu7XeNvzCmsHw" name="calcularTotal" visibility="package" method="_uBNW68wqEeu7XeNvzCmsHw"/>
+            <ownedOperation xmi:id="_uAtnoMwqEeu7XeNvzCmsHw" name="SueldoConId" method="_uBNW4swqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uAtnqMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uAtnqcwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uAtnocwqEeu7XeNvzCmsHw" name="cantidadMensual">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAtnoswqEeu7XeNvzCmsHw" name="horasExtras">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAtno8wqEeu7XeNvzCmsHw" name="bonus">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAtnpMwqEeu7XeNvzCmsHw" name="total">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAtnpcwqEeu7XeNvzCmsHw" name="fechaSueldo" type="_uAF8kMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAtnpswqEeu7XeNvzCmsHw" name="empleado" type="_t9xBUMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAtnp8wqEeu7XeNvzCmsHw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAtnqswqEeu7XeNvzCmsHw" type="_t9X_wswqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9bqIMwqEeu7XeNvzCmsHw" name="EmpleadoConId">
+            <eAnnotations xmi:id="_t9bqIcwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9bqIswqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9cRMMwqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uAXpYMwqEeu7XeNvzCmsHw" general="_t9xBUMwqEeu7XeNvzCmsHw"/>
+            <ownedAttribute xmi:id="_uBE0AMwqEeu7XeNvzCmsHw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBNW7MwqEeu7XeNvzCmsHw" name="getSueldos" specification="_t9cRMcwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBNW7cwqEeu7XeNvzCmsHw" type="_t90rsMwqEeu7XeNvzCmsHw" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBNW7swqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getSueldos();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBNW78wqEeu7XeNvzCmsHw" name="getDepartamento" specification="_t9eGYMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBNW8MwqEeu7XeNvzCmsHw" type="_t9q6sMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>return super.getDepartamento();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBN98MwqEeu7XeNvzCmsHw" name="getNombre" specification="_t9fUgswqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBN98cwqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getNombre();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBN98swqEeu7XeNvzCmsHw" name="getApellidos" specification="_t9f7k8wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBN988wqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getApellidos();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBN99MwqEeu7XeNvzCmsHw" name="getDni" specification="_t9gioMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBN99cwqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getDni();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBN99swqEeu7XeNvzCmsHw" name="getTipoEmpleado" specification="_t9gipcwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBN998wqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getTipoEmpleado();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBN9-MwqEeu7XeNvzCmsHw" name="EmpleadoConId" specification="_t9hJsswqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBN9-cwqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBN9-swqEeu7XeNvzCmsHw" name="EmpleadoConId" specification="_uAuOsMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBN9-8wqEeu7XeNvzCmsHw" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBN9_MwqEeu7XeNvzCmsHw" name="apellidos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBN9_cwqEeu7XeNvzCmsHw" name="dni">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBN9_swqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBN9_8wqEeu7XeNvzCmsHw" name="sueldos" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBN-AMwqEeu7XeNvzCmsHw" name="departamento" type="_t9q6sMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBN-AcwqEeu7XeNvzCmsHw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBN-AswqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super(nombre, apellidos, dni, tipoEmpleado, sueldos, departamento);&#xD;
+		this.id = id;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t9cRMcwqEeu7XeNvzCmsHw" name="getSueldos" method="_uBNW7MwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9cRNMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9cRNcwqEeu7XeNvzCmsHw" key="generic_container"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9cRMswqEeu7XeNvzCmsHw" type="_t90rsMwqEeu7XeNvzCmsHw" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t9cRM8wqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9eGYMwqEeu7XeNvzCmsHw" name="getDepartamento" method="_uBNW78wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uAXCUcwqEeu7XeNvzCmsHw" type="_t9q6sMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9fUgswqEeu7XeNvzCmsHw" name="getNombre" method="_uBN98MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_t9fUg8wqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9f7k8wqEeu7XeNvzCmsHw" name="getApellidos" method="_uBN98swqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_t9f7lMwqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9gioMwqEeu7XeNvzCmsHw" name="getDni" method="_uBN99MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_t9giocwqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9gipcwqEeu7XeNvzCmsHw" name="getTipoEmpleado" method="_uBN99swqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_t9gipswqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9hJsswqEeu7XeNvzCmsHw" name="EmpleadoConId" method="_uBN9-MwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9hJs8wqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9hJtMwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9hJtcwqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uAuOsMwqEeu7XeNvzCmsHw" name="EmpleadoConId" method="_uBN9-swqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uAu1xswqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uAu1x8wqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uAuOscwqEeu7XeNvzCmsHw" name="nombre">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAu1wMwqEeu7XeNvzCmsHw" name="apellidos">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAu1wcwqEeu7XeNvzCmsHw" name="dni">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAu1wswqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAu1w8wqEeu7XeNvzCmsHw" name="sueldos" type="_uARiwMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAu1xMwqEeu7XeNvzCmsHw" name="departamento" type="_t9q6sMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAu1xcwqEeu7XeNvzCmsHw" name="id">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAu1yMwqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9i-4MwqEeu7XeNvzCmsHw" name="DepartamentoConId">
+            <eAnnotations xmi:id="_t9i-4cwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9i-4swqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9i-48wqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uAY3gMwqEeu7XeNvzCmsHw" general="_t9q6sMwqEeu7XeNvzCmsHw"/>
+            <ownedAttribute xmi:id="_uBGCIMwqEeu7XeNvzCmsHw" name="id">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+            </ownedAttribute>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBOlAMwqEeu7XeNvzCmsHw" name="getEmpleados" specification="_t9jl8MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBOlAcwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBOlAswqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getEmpleados();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBOlA8wqEeu7XeNvzCmsHw" name="DepartamentoConId" specification="_t9k0EcwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBOlBMwqEeu7XeNvzCmsHw" type="_t9i-4MwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>super();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBOlBcwqEeu7XeNvzCmsHw" name="getNombreDepartamento" specification="_t9mCMMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBOlBswqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return super.getNombreDepartamento();&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t9jl8MwqEeu7XeNvzCmsHw" name="getEmpleados" method="_uBOlAMwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9jl88wqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9jl9MwqEeu7XeNvzCmsHw" key="generic_container"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9jl8cwqEeu7XeNvzCmsHw" type="_t9xBUMwqEeu7XeNvzCmsHw" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t9jl8swqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9k0EcwqEeu7XeNvzCmsHw" name="DepartamentoConId" method="_uBOlA8wqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_t9lbIMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9lbIcwqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_t9lbIswqEeu7XeNvzCmsHw" type="_t9i-4MwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_t9mCMMwqEeu7XeNvzCmsHw" name="getNombreDepartamento" method="_uBOlBcwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_t9nQUMwqEeu7XeNvzCmsHw" direction="return">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7oTU8wqEeu7XeNvzCmsHw" name="rest">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9SgMswqEeu7XeNvzCmsHw" name="Mixins">
+            <eAnnotations xmi:id="_t9SgM8wqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9SgNMwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9SgNcwqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <nestedClassifier xmi:type="uml:Interface" xmi:id="_t9THQMwqEeu7XeNvzCmsHw" name="DepartamentoConId">
+              <eAnnotations xmi:id="_t9THQcwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9THQswqEeu7XeNvzCmsHw" key="static"/>
+              </eAnnotations>
+              <ownedOperation xmi:id="_t9TuUMwqEeu7XeNvzCmsHw" name="getNombreDepartamento" isAbstract="true">
+                <ownedParameter xmi:id="_t9TuUcwqEeu7XeNvzCmsHw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </nestedClassifier>
+            <nestedClassifier xmi:type="uml:Interface" xmi:id="_t9UVY8wqEeu7XeNvzCmsHw" name="Empleado">
+              <eAnnotations xmi:id="_t9UVZMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_t9UVZcwqEeu7XeNvzCmsHw" key="static"/>
+              </eAnnotations>
+              <ownedOperation xmi:id="_t9UVZ8wqEeu7XeNvzCmsHw" name="getTipoEmpleado" isAbstract="true">
+                <ownedParameter xmi:id="_t9U8cMwqEeu7XeNvzCmsHw" direction="return">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedParameter>
+              </ownedOperation>
+            </nestedClassifier>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9VjgMwqEeu7XeNvzCmsHw" name="EmpleadoController">
+            <eAnnotations xmi:id="_t9VjgcwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9VjgswqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9Vjg8wqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_uBDl4MwqEeu7XeNvzCmsHw" name="empleadoDAO" visibility="private" type="_t9DPoMwqEeu7XeNvzCmsHw" association="_uBfDsMwqEeu7XeNvzCmsHw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMv1MwqEeu7XeNvzCmsHw" name="EmpleadoController" specification="_uAFVgMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBMv1cwqEeu7XeNvzCmsHw" name="empleadoDAO" type="_t9DPoMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBMv1swqEeu7XeNvzCmsHw" type="_t9VjgMwqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>this.empleadoDAO = empleadoDAO;&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMv18wqEeu7XeNvzCmsHw" name="getEmpleadosPorTipo" specification="_uAsZgMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBMv2MwqEeu7XeNvzCmsHw" name="assembler" type="_uAC5QswqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uBMv2cwqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBMv2swqEeu7XeNvzCmsHw" type="_uADgU8wqEeu7XeNvzCmsHw" direction="return"/>
+              <language>java</language>
+              <body>List&lt;EmpleadoConId> empleados = empleadoDAO.getEmpleadosPorTipo(tipoEmpleado);&#xD;
+&#xD;
+		return assembler.toCollectionModel(empleados);&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_uAFVgMwqEeu7XeNvzCmsHw" name="EmpleadoController" method="_uBMv1MwqEeu7XeNvzCmsHw">
+              <eAnnotations xmi:id="_uAFVgswqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_uAFVg8wqEeu7XeNvzCmsHw" key="create"/>
+              </eAnnotations>
+              <ownedParameter xmi:id="_uAFVgcwqEeu7XeNvzCmsHw" name="empleadoDAO" type="_t9DPoMwqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAFVhMwqEeu7XeNvzCmsHw" type="_t9VjgMwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+            <ownedOperation xmi:id="_uAsZgMwqEeu7XeNvzCmsHw" name="getEmpleadosPorTipo" method="_uBMv18wqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uAsZgcwqEeu7XeNvzCmsHw" name="assembler" type="_uAC5QswqEeu7XeNvzCmsHw"/>
+              <ownedParameter xmi:id="_uAsZgswqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uAsZhMwqEeu7XeNvzCmsHw" type="_uADgU8wqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t96yUcwqEeu7XeNvzCmsHw" name="ConfiguracionRest">
+            <eAnnotations xmi:id="_t97ZYMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t97ZYcwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t97ZYswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBfDsMwqEeu7XeNvzCmsHw" name="" memberEnd="_uBfDscwqEeu7XeNvzCmsHw _uBDl4MwqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBfDscwqEeu7XeNvzCmsHw" name="" type="_t9VjgMwqEeu7XeNvzCmsHw" association="_uBfDsMwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7wPIMwqEeu7XeNvzCmsHw" name="repositorios">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t86swMwqEeu7XeNvzCmsHw" name="DepartamentoDAO">
+            <eAnnotations xmi:id="_t86swcwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t86swswqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t86sw8wqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uAp9QcwqEeu7XeNvzCmsHw" general="_t_8LkMwqEeu7XeNvzCmsHw"/>
+            <ownedOperation xmi:id="_t87T0MwqEeu7XeNvzCmsHw" name="findByNombreDepartamento">
+              <ownedParameter xmi:id="_t87T0cwqEeu7XeNvzCmsHw" name="nombreDepartamento">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_t_8yocwqEeu7XeNvzCmsHw" type="_t9i-4MwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t89JAMwqEeu7XeNvzCmsHw" name="DepartamentoDAOCustom">
+            <eAnnotations xmi:id="_t8-XIMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t8-XIcwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t8-XIswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedOperation xmi:id="_t9AzYMwqEeu7XeNvzCmsHw" name="findByNombreDepartamento">
+              <ownedParameter xmi:id="_t9AzYcwqEeu7XeNvzCmsHw" name="nombreDepartamento">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_t_9ZsMwqEeu7XeNvzCmsHw" type="_t9i-4MwqEeu7XeNvzCmsHw" direction="return"/>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t9DPoMwqEeu7XeNvzCmsHw" name="EmpleadoDAO">
+            <eAnnotations xmi:id="_t9D2sMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9D2scwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9D2sswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uAqkUcwqEeu7XeNvzCmsHw" general="_t_8LkMwqEeu7XeNvzCmsHw"/>
+            <generalization xmi:id="_t_9ZscwqEeu7XeNvzCmsHw" general="_t9Fr4MwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t9Fr4MwqEeu7XeNvzCmsHw" name="EmpleadoDAOCustom">
+            <eAnnotations xmi:id="_t9GS8MwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9GS8cwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9GS8swqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedOperation xmi:id="_t9G6AMwqEeu7XeNvzCmsHw" name="getEmpleadosPorTipo" visibility="package">
+              <ownedParameter xmi:id="_t9G6AcwqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_t9HhEMwqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t9HhEcwqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9IIIMwqEeu7XeNvzCmsHw" name="EmpleadoDAOImpl">
+            <eAnnotations xmi:id="_t9IIIcwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9IIIswqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9III8wqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedAttribute xmi:id="_uBBwsMwqEeu7XeNvzCmsHw" name="empleadoDAO" visibility="private" type="_t9DPoMwqEeu7XeNvzCmsHw" association="_uBdOgMwqEeu7XeNvzCmsHw"/>
+            <interfaceRealization xmi:id="_t__O4cwqEeu7XeNvzCmsHw" client="_t9IIIMwqEeu7XeNvzCmsHw" supplier="_t9Fr4MwqEeu7XeNvzCmsHw" contract="_t9Fr4MwqEeu7XeNvzCmsHw"/>
+            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMv0MwqEeu7XeNvzCmsHw" name="getEmpleadosPorTipo" specification="_t9IvMMwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_uBMv0cwqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_uBMv0swqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBMv08wqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+              <language>java</language>
+              <body>return empleadoDAO.findAll().stream()&#xD;
+				.filter(empleado -> empleado.getTipoEmpleado().equals(tipoEmpleado)).collect(Collectors.toList());&#xD;
+	</body>
+            </ownedBehavior>
+            <ownedOperation xmi:id="_t9IvMMwqEeu7XeNvzCmsHw" name="getEmpleadosPorTipo" method="_uBMv0MwqEeu7XeNvzCmsHw">
+              <ownedParameter xmi:id="_t9IvMcwqEeu7XeNvzCmsHw" name="tipoEmpleado">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              </ownedParameter>
+              <ownedParameter xmi:id="_t9JWQMwqEeu7XeNvzCmsHw" type="_t9bqIMwqEeu7XeNvzCmsHw" isOrdered="true" direction="return">
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t9JWQcwqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t9LLcMwqEeu7XeNvzCmsHw" name="SueldoDAO">
+            <eAnnotations xmi:id="_t9LLccwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9LLcswqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9LLc8wqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uArLYcwqEeu7XeNvzCmsHw" general="_t_8LkMwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t9NAoMwqEeu7XeNvzCmsHw" name="SueldoDAOCustom">
+            <eAnnotations xmi:id="_t9NnsMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9NnscwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9NnsswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_t9Nns8wqEeu7XeNvzCmsHw" name="UsuarioDAO">
+            <eAnnotations xmi:id="_t9OOwMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9OOwcwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9OOwswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+              </contents>
+            </eAnnotations>
+            <generalization xmi:id="_uArycMwqEeu7XeNvzCmsHw" general="_t_8LkMwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_uBdOgMwqEeu7XeNvzCmsHw" name="" memberEnd="_uBdOgcwqEeu7XeNvzCmsHw _uBBwsMwqEeu7XeNvzCmsHw">
+            <ownedEnd xmi:id="_uBdOgcwqEeu7XeNvzCmsHw" name="" type="_t9IIIMwqEeu7XeNvzCmsHw" association="_uBdOgMwqEeu7XeNvzCmsHw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t74yAcwqEeu7XeNvzCmsHw" name="gortizAbogadosapi">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9QD8MwqEeu7XeNvzCmsHw" name="GortizAbogadosApiApplicationTests" visibility="package">
+            <eAnnotations xmi:id="_t9QrAMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9QrAcwqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9QrAswqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedOperation xmi:id="_t9RSEcwqEeu7XeNvzCmsHw" name="contextLoads" visibility="package"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t8AGwMwqEeu7XeNvzCmsHw" name="gortizAbogados">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t9XYsMwqEeu7XeNvzCmsHw" name="GortizAbogadosApplicationTests" visibility="package">
+            <eAnnotations xmi:id="_t9XYscwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+              <contents xmi:type="ecore:EAnnotation" xmi:id="_t9XYsswqEeu7XeNvzCmsHw" source="codegen">
+                <details xmi:id="_t9XYs8wqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados/src/test/java"/>
+              </contents>
+            </eAnnotations>
+            <ownedOperation xmi:id="_t9X_wMwqEeu7XeNvzCmsHw" name="contextLoads" visibility="package"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t95kMMwqEeu7XeNvzCmsHw" name="GortizAbogadosApplication">
+            <ownedOperation xmi:id="_t96LQMwqEeu7XeNvzCmsHw" name="main" isStatic="true">
+              <ownedParameter xmi:id="_t96LQcwqEeu7XeNvzCmsHw" name="args">
+                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t96LQ8wqEeu7XeNvzCmsHw" value="*"/>
+              </ownedParameter>
+            </ownedOperation>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_t8vGkMwqEeu7XeNvzCmsHw" name="ConfiguracionPorJava">
+          <eAnnotations xmi:id="_t8vtoMwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_t8vtocwqEeu7XeNvzCmsHw" source="codegen">
+              <details xmi:id="_t8wUsMwqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMIwMwqEeu7XeNvzCmsHw" name="getObjectMapper" specification="_t8w7wcwqEeu7XeNvzCmsHw">
+            <ownedParameter xmi:id="_uBMIwcwqEeu7XeNvzCmsHw" type="_t_5IQcwqEeu7XeNvzCmsHw" direction="return"/>
+            <language>java</language>
+            <body>ObjectMapper mapper = new ObjectMapper();&#xD;
+//		mapper.addMixIn(Departamento.class,Mixins.Departamento.class);&#xD;
+//		mapper.addMixIn(Empleado.class,Mixins.Empleado.class);&#xD;
+		&#xD;
+		return mapper;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMIwswqEeu7XeNvzCmsHw" name="corsFilter" specification="_t80mIMwqEeu7XeNvzCmsHw">
+            <ownedParameter xmi:id="_uBMIw8wqEeu7XeNvzCmsHw" type="_t_4hM8wqEeu7XeNvzCmsHw" direction="return"/>
+            <language>java</language>
+            <body>final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();&#xD;
+		final CorsConfiguration config = new CorsConfiguration();&#xD;
+		config.setAllowCredentials(false);&#xD;
+		config.setAllowedOrigins(Collections.singletonList(&quot;*&quot;));&#xD;
+		config.setAllowedHeaders(Arrays.asList(&quot;Origin&quot;, &quot;Content-Type&quot;, &quot;Accept&quot;));&#xD;
+		config.setAllowedMethods(Arrays.asList(&quot;GET&quot;, &quot;POST&quot;, &quot;PUT&quot;, &quot;OPTIONS&quot;, &quot;DELETE&quot;, &quot;PATCH&quot;));&#xD;
+		source.registerCorsConfiguration(&quot;/**&quot;, config);&#xD;
+&#xD;
+		return new CorsFilter(source);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_t8w7wcwqEeu7XeNvzCmsHw" name="getObjectMapper" method="_uBMIwMwqEeu7XeNvzCmsHw">
+            <ownedParameter xmi:id="_uApWMMwqEeu7XeNvzCmsHw" type="_t_5IQcwqEeu7XeNvzCmsHw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_t80mIMwqEeu7XeNvzCmsHw" name="corsFilter" visibility="package" method="_uBMIwswqEeu7XeNvzCmsHw">
+            <ownedParameter xmi:id="_uApWMcwqEeu7XeNvzCmsHw" type="_t_4hM8wqEeu7XeNvzCmsHw" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_t82bUMwqEeu7XeNvzCmsHw" name="GortizAbogadosApiApplication">
+          <eAnnotations xmi:id="_t82bUcwqEeu7XeNvzCmsHw" source="http://ns.yatta.de/umllab">
+            <contents xmi:type="ecore:EAnnotation" xmi:id="_t83CYMwqEeu7XeNvzCmsHw" source="codegen">
+              <details xmi:id="_t83CYcwqEeu7XeNvzCmsHw" key="codegenDirectory" value="/gortizAbogados-api/src/main/java"/>
+            </contents>
+          </eAnnotations>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_uBMIxMwqEeu7XeNvzCmsHw" name="main" specification="_t83pcMwqEeu7XeNvzCmsHw">
+            <ownedParameter xmi:id="_uBMIxcwqEeu7XeNvzCmsHw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uBMIxswqEeu7XeNvzCmsHw" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>SpringApplication.run(GortizAbogadosApiApplication.class, args);&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_t83pcMwqEeu7XeNvzCmsHw" name="main" isStatic="true" method="_uBMIxMwqEeu7XeNvzCmsHw">
+            <ownedParameter xmi:id="_t83pccwqEeu7XeNvzCmsHw" name="args">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t83pc8wqEeu7XeNvzCmsHw" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t7nFMMwqEeu7XeNvzCmsHw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t7nFMcwqEeu7XeNvzCmsHw" name="util">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7zScMwqEeu7XeNvzCmsHw" name="stream">
+          <packagedElement xmi:type="uml:Class" xmi:id="_t_-n0MwqEeu7XeNvzCmsHw" name="Collectors"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_uAjPkcwqEeu7XeNvzCmsHw" name="Stream"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_t_2sAMwqEeu7XeNvzCmsHw" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_t_3TEcwqEeu7XeNvzCmsHw" name="Collections"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_t_-AwMwqEeu7XeNvzCmsHw" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uARiwMwqEeu7XeNvzCmsHw" name="Collection"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uAiogcwqEeu7XeNvzCmsHw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uAiog8wqEeu7XeNvzCmsHw" name="Map"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_t8At0MwqEeu7XeNvzCmsHw" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_uAF8kMwqEeu7XeNvzCmsHw" name="LocalDate"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_t8RzkswqEeu7XeNvzCmsHw" name="lang">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t8Rzk8wqEeu7XeNvzCmsHw" name="reflect">
+          <packagedElement xmi:type="uml:Class" xmi:id="_uAgzUcwqEeu7XeNvzCmsHw" name="Method"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uAhaYcwqEeu7XeNvzCmsHw" name="Parameter"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_uApWMswqEeu7XeNvzCmsHw" name="Long"/>
+        <packagedElement xmi:type="uml:DataType" xmi:id="_uA5N0MwqEeu7XeNvzCmsHw" name="Double"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_t8SaoMwqEeu7XeNvzCmsHw" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_uAiBccwqEeu7XeNvzCmsHw" name="URI"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_uAiBc8wqEeu7XeNvzCmsHw" name="URISyntaxException"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t7nsQMwqEeu7XeNvzCmsHw" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t7nsQcwqEeu7XeNvzCmsHw" name="springframework">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7nsQswqEeu7XeNvzCmsHw" name="context">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7nsQ8wqEeu7XeNvzCmsHw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_t_3TE8wqEeu7XeNvzCmsHw" name="Bean"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_t_36IcwqEeu7XeNvzCmsHw" name="Configuration"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_t_6WYswqEeu7XeNvzCmsHw" name="Import"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_t_69cMwqEeu7XeNvzCmsHw" name="ImportResource"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7nsRMwqEeu7XeNvzCmsHw" name="web">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7nsRcwqEeu7XeNvzCmsHw" name="cors">
+            <packagedElement xmi:type="uml:Class" xmi:id="_t_36I8wqEeu7XeNvzCmsHw" name="CorsConfiguration"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_t_4hMcwqEeu7XeNvzCmsHw" name="UrlBasedCorsConfigurationSource"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7nsRswqEeu7XeNvzCmsHw" name="filter">
+            <packagedElement xmi:type="uml:Class" xmi:id="_t_4hM8wqEeu7XeNvzCmsHw" name="CorsFilter"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_t78cYMwqEeu7XeNvzCmsHw" name="bind">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t78cYcwqEeu7XeNvzCmsHw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uAEHYcwqEeu7XeNvzCmsHw" name="GetMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uAEHY8wqEeu7XeNvzCmsHw" name="RequestMapping"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uAEucMwqEeu7XeNvzCmsHw" name="RequestParam"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uAEucswqEeu7XeNvzCmsHw" name="ResponseBody"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uAkds8wqEeu7XeNvzCmsHw" name="PathVariable"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7phcMwqEeu7XeNvzCmsHw" name="boot">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7phccwqEeu7XeNvzCmsHw" name="autoconfigure">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_t_6WYMwqEeu7XeNvzCmsHw" name="SpringBootApplication"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_t74K88wqEeu7XeNvzCmsHw" name="test">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t74yAMwqEeu7XeNvzCmsHw" name="context">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uABrIcwqEeu7XeNvzCmsHw" name="SpringBootTest"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_t_5vUMwqEeu7XeNvzCmsHw" name="SpringApplication"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7ty4MwqEeu7XeNvzCmsHw" name="data">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7uZ8MwqEeu7XeNvzCmsHw" name="jpa">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t7uZ8cwqEeu7XeNvzCmsHw" name="repository">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_t_8LkMwqEeu7XeNvzCmsHw" name="JpaRepository"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7uZ8swqEeu7XeNvzCmsHw" name="rest">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t7uZ88wqEeu7XeNvzCmsHw" name="core">
+              <packagedElement xmi:type="uml:Package" xmi:id="_t7vBAMwqEeu7XeNvzCmsHw" name="annotation">
+                <packagedElement xmi:type="uml:Interface" xmi:id="_t_8LkswqEeu7XeNvzCmsHw" name="RepositoryRestResource"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_t8SaocwqEeu7XeNvzCmsHw" name="config">
+                <packagedElement xmi:type="uml:Class" xmi:id="_uAjPk8wqEeu7XeNvzCmsHw" name="RepositoryRestConfiguration"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_t771UMwqEeu7XeNvzCmsHw" name="webmvc">
+              <packagedElement xmi:type="uml:Class" xmi:id="_uAC5QMwqEeu7XeNvzCmsHw" name="PersistentEntityResource"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uAC5QswqEeu7XeNvzCmsHw" name="PersistentEntityResourceAssembler"/>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_uADgUcwqEeu7XeNvzCmsHw" name="RepositoryRestController"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_uAj2ocwqEeu7XeNvzCmsHw" name="RepositorySearchesResource"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7z5gMwqEeu7XeNvzCmsHw" name="beans">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7z5gcwqEeu7XeNvzCmsHw" name="factory">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t7z5gswqEeu7XeNvzCmsHw" name="annotation">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_t_-n0swqEeu7XeNvzCmsHw" name="Autowired"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_t771UcwqEeu7XeNvzCmsHw" name="hateoas">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t8RzkMwqEeu7XeNvzCmsHw" name="server">
+            <packagedElement xmi:type="uml:Package" xmi:id="_t8RzkcwqEeu7XeNvzCmsHw" name="mvc">
+              <packagedElement xmi:type="uml:Class" xmi:id="_uAflMMwqEeu7XeNvzCmsHw" name="WebMvcLinkBuilder"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_uAkdscwqEeu7XeNvzCmsHw" name="RepresentationModelProcessor"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uADgU8wqEeu7XeNvzCmsHw" name="CollectionModel"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uAj2o8wqEeu7XeNvzCmsHw" name="Link"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_t74K8MwqEeu7XeNvzCmsHw" name="junit">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t74K8cwqEeu7XeNvzCmsHw" name="jupiter">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t74K8swqEeu7XeNvzCmsHw" name="api">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_uABEEMwqEeu7XeNvzCmsHw" name="Test"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t7nsR8wqEeu7XeNvzCmsHw" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t7nsSMwqEeu7XeNvzCmsHw" name="fasterxml">
+        <packagedElement xmi:type="uml:Package" xmi:id="_t7nsScwqEeu7XeNvzCmsHw" name="jackson">
+          <packagedElement xmi:type="uml:Package" xmi:id="_t7nsSswqEeu7XeNvzCmsHw" name="databind">
+            <packagedElement xmi:type="uml:Class" xmi:id="_t_5IQcwqEeu7XeNvzCmsHw" name="ObjectMapper"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_t75ZEMwqEeu7XeNvzCmsHw" name="annotation">
+            <packagedElement xmi:type="uml:Interface" xmi:id="_uACSMMwqEeu7XeNvzCmsHw" name="JsonProperty"/>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_uACSMswqEeu7XeNvzCmsHw" name="JsonPropertyOrder"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_t8At0cwqEeu7XeNvzCmsHw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_t8BU4MwqEeu7XeNvzCmsHw" name="persistence">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_uAGjocwqEeu7XeNvzCmsHw" name="FetchType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uAGjo8wqEeu7XeNvzCmsHw" name="JoinColumn"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uAHKscwqEeu7XeNvzCmsHw" name="ManyToOne"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uAHKs8wqEeu7XeNvzCmsHw" name="PrePersist"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_uAUmEMwqEeu7XeNvzCmsHw" name="CascadeType"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uAV0McwqEeu7XeNvzCmsHw" name="OneToMany"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_thkNgMwqEeu7XeNvzCmsHw">
+      <eAnnotations xmi:id="_thk0kMwqEeu7XeNvzCmsHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_thk0kcwqEeu7XeNvzCmsHw" base_Package="_taVkIMwqEeu7XeNvzCmsHw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t8w7wMwqEeu7XeNvzCmsHw" base_Element="_t8vGkMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t8z_EMwqEeu7XeNvzCmsHw" base_Element="_t8w7wcwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t8z_EcwqEeu7XeNvzCmsHw" name="Bean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_t80mIcwqEeu7XeNvzCmsHw" base_Element="_t80mIMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t80mIswqEeu7XeNvzCmsHw" name="Bean"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_t81NMMwqEeu7XeNvzCmsHw" base_Element="_t8vGkMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t81NMcwqEeu7XeNvzCmsHw" name="Configuration"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t83CYswqEeu7XeNvzCmsHw" base_Element="_t82bUMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:StyledElement xmi:id="_t83pcswqEeu7XeNvzCmsHw" base_Element="_t83pcMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t84QgMwqEeu7XeNvzCmsHw" base_Element="_t82bUMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t84QgcwqEeu7XeNvzCmsHw" name="SpringBootApplication"/>
+    <annotations xmi:id="_t84QgswqEeu7XeNvzCmsHw" name="Import">
+      <annotationParameters xmi:id="_t84Qg8wqEeu7XeNvzCmsHw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBRoUMwqEeu7XeNvzCmsHw" value="ConfiguracionPorJava.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_t84QhMwqEeu7XeNvzCmsHw" name="ImportResource">
+      <annotationParameters xmi:id="_t84QhcwqEeu7XeNvzCmsHw" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBRoUcwqEeu7XeNvzCmsHw" value="&quot;classpath:config/jpa-config.xml&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t86sxMwqEeu7XeNvzCmsHw" base_Element="_t86swMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:StyledElement xmi:id="_t87T0swqEeu7XeNvzCmsHw" base_Element="_t87T0MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t8764MwqEeu7XeNvzCmsHw" base_Element="_t86swMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t8764cwqEeu7XeNvzCmsHw" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_t8764swqEeu7XeNvzCmsHw" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPYMwqEeu7XeNvzCmsHw" value="&quot;departamentos&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t87648wqEeu7XeNvzCmsHw" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPYcwqEeu7XeNvzCmsHw" value="&quot;departamento&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t8765MwqEeu7XeNvzCmsHw" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPYswqEeu7XeNvzCmsHw" value="&quot;departamentos&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9EdwMwqEeu7XeNvzCmsHw" base_Element="_t9DPoMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9FE0MwqEeu7XeNvzCmsHw" base_Element="_t9DPoMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9FE0cwqEeu7XeNvzCmsHw" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_t9FE0swqEeu7XeNvzCmsHw" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPY8wqEeu7XeNvzCmsHw" value="&quot;empleados&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9FE08wqEeu7XeNvzCmsHw" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPZMwqEeu7XeNvzCmsHw" value="&quot;empleado&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9FE1MwqEeu7XeNvzCmsHw" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPZcwqEeu7XeNvzCmsHw" value="&quot;empleados&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9JWQswqEeu7XeNvzCmsHw" base_Element="_t9IvMMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9JWQ8wqEeu7XeNvzCmsHw" base_Element="_t9IvMMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9JWRMwqEeu7XeNvzCmsHw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9LygMwqEeu7XeNvzCmsHw" base_Element="_t9LLcMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9MZkMwqEeu7XeNvzCmsHw" base_Element="_t9LLcMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9MZkcwqEeu7XeNvzCmsHw" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_t9MZkswqEeu7XeNvzCmsHw" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPZswqEeu7XeNvzCmsHw" value="&quot;sueldos&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9MZk8wqEeu7XeNvzCmsHw" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPZ8wqEeu7XeNvzCmsHw" value="&quot;sueldo&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9MZlMwqEeu7XeNvzCmsHw" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPaMwqEeu7XeNvzCmsHw" value="&quot;sueldos&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9OOw8wqEeu7XeNvzCmsHw" base_Element="_t9Nns8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9O10MwqEeu7XeNvzCmsHw" base_Element="_t9Nns8wqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9O10cwqEeu7XeNvzCmsHw" name="RepositoryRestResource">
+      <annotationParameters xmi:id="_t9Pc4MwqEeu7XeNvzCmsHw" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPacwqEeu7XeNvzCmsHw" value="&quot;usuarios&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9Pc4cwqEeu7XeNvzCmsHw" name="collectionResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPaswqEeu7XeNvzCmsHw" value="&quot;usuario&quot;"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9Pc4swqEeu7XeNvzCmsHw" name="itemResourceRel" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPa8wqEeu7XeNvzCmsHw" value="&quot;usuarios&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9RSEMwqEeu7XeNvzCmsHw" base_Element="_t9QD8MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9R5IMwqEeu7XeNvzCmsHw" base_Element="_t9RSEcwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9R5IcwqEeu7XeNvzCmsHw" name="Test"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_t9SgMMwqEeu7XeNvzCmsHw" base_Element="_t9QD8MwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9SgMcwqEeu7XeNvzCmsHw" name="SpringBootTest"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9THQ8wqEeu7XeNvzCmsHw" base_Element="_t9THQMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9TuUswqEeu7XeNvzCmsHw" base_Element="_t9TuUMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9TuU8wqEeu7XeNvzCmsHw" name="JsonProperty">
+      <annotationParameters xmi:id="_t9TuVMwqEeu7XeNvzCmsHw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPbswqEeu7XeNvzCmsHw" value="&quot;departamento&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_t9UVYMwqEeu7XeNvzCmsHw" base_Element="_t9THQMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9UVYcwqEeu7XeNvzCmsHw" name="JsonPropertyOrder">
+      <annotationParameters xmi:id="_t9UVYswqEeu7XeNvzCmsHw" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPbMwqEeu7XeNvzCmsHw" value="&quot;id&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBSPbcwqEeu7XeNvzCmsHw" value="&quot;nombreDepartamento&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9UVZswqEeu7XeNvzCmsHw" base_Element="_t9UVY8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9U8ccwqEeu7XeNvzCmsHw" base_Element="_t9UVZ8wqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9U8cswqEeu7XeNvzCmsHw" name="JsonProperty">
+      <annotationParameters xmi:id="_t9U8c8wqEeu7XeNvzCmsHw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2dswqEeu7XeNvzCmsHw" value="&quot;TIPO EMPLEADO&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_t9U8dMwqEeu7XeNvzCmsHw" base_Element="_t9UVY8wqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9U8dcwqEeu7XeNvzCmsHw" name="JsonPropertyOrder">
+      <annotationParameters xmi:id="_t9U8dswqEeu7XeNvzCmsHw" skipName="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2cMwqEeu7XeNvzCmsHw" value="&quot;id&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2ccwqEeu7XeNvzCmsHw" value="&quot;nombre&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2cswqEeu7XeNvzCmsHw" value="&quot;apellidos&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2c8wqEeu7XeNvzCmsHw" value="&quot;dni&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2dMwqEeu7XeNvzCmsHw" value="&quot;tipoEmpleado&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2dcwqEeu7XeNvzCmsHw" value="&quot;sueldo&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9VjhMwqEeu7XeNvzCmsHw" base_Element="_t9VjgMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9WKkMwqEeu7XeNvzCmsHw" base_Element="_t9VjgMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9WKkcwqEeu7XeNvzCmsHw" name="RepositoryRestController"/>
+    <annotations xmi:id="_t9WKkswqEeu7XeNvzCmsHw" name="RequestMapping">
+      <annotationParameters xmi:id="_t9WKk8wqEeu7XeNvzCmsHw" name="path" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2d8wqEeu7XeNvzCmsHw" value="&quot;/empleados/search&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9X_wcwqEeu7XeNvzCmsHw" base_Element="_t9X_wMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9Ym0cwqEeu7XeNvzCmsHw" base_Element="_t9Ym0MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9Ym0swqEeu7XeNvzCmsHw" base_Element="_t9Ym0MwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9Ym08wqEeu7XeNvzCmsHw" name="Override"/>
+    <annotations xmi:id="_t9Ym1MwqEeu7XeNvzCmsHw" name="ManyToOne">
+      <annotationParameters xmi:id="_t9Ym1cwqEeu7XeNvzCmsHw" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2ecwqEeu7XeNvzCmsHw" value="FetchType.LAZY"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9ZN4MwqEeu7XeNvzCmsHw" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2eswqEeu7XeNvzCmsHw" value="SueldoConId.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_t9ZN4cwqEeu7XeNvzCmsHw" name="JoinColumn">
+      <annotationParameters xmi:id="_t9ZN4swqEeu7XeNvzCmsHw" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2e8wqEeu7XeNvzCmsHw" value="&quot;EMPLEADO&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9Z08cwqEeu7XeNvzCmsHw" base_Element="_t9Z08MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9Z08swqEeu7XeNvzCmsHw" base_Element="_t9Z08MwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9Z088wqEeu7XeNvzCmsHw" name="PrePersist"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9c4QMwqEeu7XeNvzCmsHw" base_Element="_t9cRMcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9c4QcwqEeu7XeNvzCmsHw" base_Element="_t9cRMcwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9dfUMwqEeu7XeNvzCmsHw" name="Override"/>
+    <annotations xmi:id="_t9dfUcwqEeu7XeNvzCmsHw" name="OneToMany">
+      <annotationParameters xmi:id="_t9dfUswqEeu7XeNvzCmsHw" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdgMwqEeu7XeNvzCmsHw" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9dfU8wqEeu7XeNvzCmsHw" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdgcwqEeu7XeNvzCmsHw" value="SueldoConId.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9dfVMwqEeu7XeNvzCmsHw" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdgswqEeu7XeNvzCmsHw" value="&quot;empleado&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9etcMwqEeu7XeNvzCmsHw" base_Element="_t9eGYMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9etccwqEeu7XeNvzCmsHw" base_Element="_t9eGYMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9etcswqEeu7XeNvzCmsHw" name="Override"/>
+    <annotations xmi:id="_t9etc8wqEeu7XeNvzCmsHw" name="ManyToOne">
+      <annotationParameters xmi:id="_t9etdMwqEeu7XeNvzCmsHw" name="fetch" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdg8wqEeu7XeNvzCmsHw" value="FetchType.LAZY"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9etdcwqEeu7XeNvzCmsHw" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdhMwqEeu7XeNvzCmsHw" value="DepartamentoConId.class"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_t9fUgMwqEeu7XeNvzCmsHw" name="JoinColumn">
+      <annotationParameters xmi:id="_t9fUgcwqEeu7XeNvzCmsHw" name="name" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdhcwqEeu7XeNvzCmsHw" value="&quot;DEPARTAMENTO&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9f7kMwqEeu7XeNvzCmsHw" base_Element="_t9fUgswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9f7kcwqEeu7XeNvzCmsHw" base_Element="_t9fUgswqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9f7kswqEeu7XeNvzCmsHw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9f7lcwqEeu7XeNvzCmsHw" base_Element="_t9f7k8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9f7lswqEeu7XeNvzCmsHw" base_Element="_t9f7k8wqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9f7l8wqEeu7XeNvzCmsHw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9gioswqEeu7XeNvzCmsHw" base_Element="_t9gioMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9gio8wqEeu7XeNvzCmsHw" base_Element="_t9gioMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9gipMwqEeu7XeNvzCmsHw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9gip8wqEeu7XeNvzCmsHw" base_Element="_t9gipcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9hJsMwqEeu7XeNvzCmsHw" base_Element="_t9gipcwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9hJscwqEeu7XeNvzCmsHw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9kNAMwqEeu7XeNvzCmsHw" base_Element="_t9jl8MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9kNAcwqEeu7XeNvzCmsHw" base_Element="_t9jl8MwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9kNAswqEeu7XeNvzCmsHw" name="Override"/>
+    <annotations xmi:id="_t9kNA8wqEeu7XeNvzCmsHw" name="OneToMany">
+      <annotationParameters xmi:id="_t9kNBMwqEeu7XeNvzCmsHw" name="cascade" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdhswqEeu7XeNvzCmsHw" value="CascadeType.ALL"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9kNBcwqEeu7XeNvzCmsHw" name="targetEntity" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdh8wqEeu7XeNvzCmsHw" value="Empleado.class"/>
+      </annotationParameters>
+      <annotationParameters xmi:id="_t9k0EMwqEeu7XeNvzCmsHw" name="mappedBy" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBTdiMwqEeu7XeNvzCmsHw" value="&quot;departamento&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t9nQUcwqEeu7XeNvzCmsHw" base_Element="_t9mCMMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t9n3YMwqEeu7XeNvzCmsHw" base_Element="_t9mCMMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t9n3YcwqEeu7XeNvzCmsHw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t96LQswqEeu7XeNvzCmsHw" base_Element="_t96LQMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Array xmi:id="_t96yUMwqEeu7XeNvzCmsHw" base_Element="_t96LQcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_t98AcMwqEeu7XeNvzCmsHw" base_Element="_t96yUcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_t99OkMwqEeu7XeNvzCmsHw" base_Element="_t96yUcwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_t99OkcwqEeu7XeNvzCmsHw" name="Configuration"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_t_3TEMwqEeu7XeNvzCmsHw" base_Element="_t_2sAMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_3TEswqEeu7XeNvzCmsHw" base_Element="_t_3TEcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_36IMwqEeu7XeNvzCmsHw" base_Element="_t_3TE8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_36IswqEeu7XeNvzCmsHw" base_Element="_t_36IcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_4hMMwqEeu7XeNvzCmsHw" base_Element="_t_36I8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_4hMswqEeu7XeNvzCmsHw" base_Element="_t_4hMcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_5IQMwqEeu7XeNvzCmsHw" base_Element="_t_4hM8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_5IQswqEeu7XeNvzCmsHw" base_Element="_t_5IQcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_5vUcwqEeu7XeNvzCmsHw" base_Element="_t_5vUMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_6WYcwqEeu7XeNvzCmsHw" base_Element="_t_6WYMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_6WY8wqEeu7XeNvzCmsHw" base_Element="_t_6WYswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_69ccwqEeu7XeNvzCmsHw" base_Element="_t_69cMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_8LkcwqEeu7XeNvzCmsHw" base_Element="_t_8LkMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_8yoMwqEeu7XeNvzCmsHw" base_Element="_t_8LkswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_-AwcwqEeu7XeNvzCmsHw" base_Element="_t_-AwMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t_-n0cwqEeu7XeNvzCmsHw" base_Element="_t_-n0MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_t__O4MwqEeu7XeNvzCmsHw" base_Element="_t_-n0swqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uABrIMwqEeu7XeNvzCmsHw" base_Element="_uABEEMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uABrIswqEeu7XeNvzCmsHw" base_Element="_uABrIcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uACSMcwqEeu7XeNvzCmsHw" base_Element="_uACSMMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uACSM8wqEeu7XeNvzCmsHw" base_Element="_uACSMswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAC5QcwqEeu7XeNvzCmsHw" base_Element="_uAC5QMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uADgUMwqEeu7XeNvzCmsHw" base_Element="_uAC5QswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uADgUswqEeu7XeNvzCmsHw" base_Element="_uADgUcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAEHYMwqEeu7XeNvzCmsHw" base_Element="_uADgU8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAEHYswqEeu7XeNvzCmsHw" base_Element="_uAEHYcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAEHZMwqEeu7XeNvzCmsHw" base_Element="_uAEHY8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAEuccwqEeu7XeNvzCmsHw" base_Element="_uAEucMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAEuc8wqEeu7XeNvzCmsHw" base_Element="_uAEucswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:StyledElement xmi:id="_uAFVhcwqEeu7XeNvzCmsHw" base_Element="_uAFVgMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAGjoMwqEeu7XeNvzCmsHw" base_Element="_uAF8kMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAGjoswqEeu7XeNvzCmsHw" base_Element="_uAGjocwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAHKsMwqEeu7XeNvzCmsHw" base_Element="_uAGjo8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAHKsswqEeu7XeNvzCmsHw" base_Element="_uAHKscwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAHxwMwqEeu7XeNvzCmsHw" base_Element="_uAHKs8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uATX8MwqEeu7XeNvzCmsHw" base_Element="_uARiwMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAV0MMwqEeu7XeNvzCmsHw" base_Element="_uAUmEMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAXCUMwqEeu7XeNvzCmsHw" base_Element="_uAV0McwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAgzUMwqEeu7XeNvzCmsHw" base_Element="_uAflMMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAhaYMwqEeu7XeNvzCmsHw" base_Element="_uAgzUcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAiBcMwqEeu7XeNvzCmsHw" base_Element="_uAhaYcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAiBcswqEeu7XeNvzCmsHw" base_Element="_uAiBccwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAiogMwqEeu7XeNvzCmsHw" base_Element="_uAiBc8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAiogswqEeu7XeNvzCmsHw" base_Element="_uAiogcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAjPkMwqEeu7XeNvzCmsHw" base_Element="_uAiog8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAjPkswqEeu7XeNvzCmsHw" base_Element="_uAjPkcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAj2oMwqEeu7XeNvzCmsHw" base_Element="_uAjPk8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAj2oswqEeu7XeNvzCmsHw" base_Element="_uAj2ocwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAkdsMwqEeu7XeNvzCmsHw" base_Element="_uAj2o8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAkdsswqEeu7XeNvzCmsHw" base_Element="_uAkdscwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAlEwMwqEeu7XeNvzCmsHw" base_Element="_uAkds8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uAp9QMwqEeu7XeNvzCmsHw" base_Element="_uApWMswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uAqkUMwqEeu7XeNvzCmsHw" genericsValue="DepartamentoConId, Long" base_Element="_uAp9QcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uArLYMwqEeu7XeNvzCmsHw" genericsValue="EmpleadoConId, Long" base_Element="_uAqkUcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uArLYswqEeu7XeNvzCmsHw" genericsValue="SueldoConId, Long" base_Element="_uArLYcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uAryccwqEeu7XeNvzCmsHw" genericsValue="UsuarioConId, Long" base_Element="_uArycMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uAsZg8wqEeu7XeNvzCmsHw" genericsValue="PersistentEntityResource" base_Element="_uAsZgMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_uAtAkMwqEeu7XeNvzCmsHw" base_Element="_uAsZgswqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_uAtAkcwqEeu7XeNvzCmsHw" name="RequestParam"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Annotations xmi:id="_uAtAkswqEeu7XeNvzCmsHw" base_Element="_uAsZgMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_uAtAk8wqEeu7XeNvzCmsHw" name="GetMapping">
+      <annotationParameters xmi:id="_uAtAlMwqEeu7XeNvzCmsHw" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_uBS2eMwqEeu7XeNvzCmsHw" value="&quot;/por-tipo&quot;"/>
+      </annotationParameters>
+    </annotations>
+    <annotations xmi:id="_uAtAlcwqEeu7XeNvzCmsHw" name="ResponseBody"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_uAu1ycwqEeu7XeNvzCmsHw" genericsValue="Sueldo" base_Element="_uAu1w8wqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uAwq8MwqEeu7XeNvzCmsHw" genericsValue="Empleado" base_Element="_uAwD4cwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uAygIMwqEeu7XeNvzCmsHw" genericsValue="Empleado" base_Element="_uAxSAcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Generics xmi:id="_uA3YoMwqEeu7XeNvzCmsHw" genericsValue="Sueldo" base_Element="_uA2KgswqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uA504MwqEeu7XeNvzCmsHw" base_Element="_uA5N0MwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBCXwMwqEeu7XeNvzCmsHw" base_Element="_uBBwsMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Annotations xmi:id="_uBC-0MwqEeu7XeNvzCmsHw" base_Element="_uBBwsMwqEeu7XeNvzCmsHw">
+    <annotations xmi:id="_uBC-0cwqEeu7XeNvzCmsHw" name="Autowired"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBHQQcwqEeu7XeNvzCmsHw" base_Element="_uBGpMcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_uBJFcMwqEeu7XeNvzCmsHw" base_Element="_uBIeY8wqEeu7XeNvzCmsHw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_uBJFcswqEeu7XeNvzCmsHw" name="getCANTIDAD_BONUS" isStatic="true" method="_uBQaMMwqEeu7XeNvzCmsHw">
+      <ownedParameter xmi:id="_uBJFdcwqEeu7XeNvzCmsHw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </associatedElement>
+    <associatedElement xmi:type="uml:Operation" xmi:id="_uBJFc8wqEeu7XeNvzCmsHw" name="setCANTIDAD_BONUS" isStatic="true" method="_uBQaMswqEeu7XeNvzCmsHw">
+      <ownedParameter xmi:id="_uBJFdMwqEeu7XeNvzCmsHw" name="cANTIDAD_BONUS">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_uBQaMMwqEeu7XeNvzCmsHw" name="getCANTIDAD_BONUS" specification="_uBJFcswqEeu7XeNvzCmsHw">
+    <ownedParameter xmi:id="_uBQaMcwqEeu7XeNvzCmsHw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return CANTIDAD_BONUS;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_uBQaMswqEeu7XeNvzCmsHw" name="setCANTIDAD_BONUS" specification="_uBJFc8wqEeu7XeNvzCmsHw">
+    <ownedParameter xmi:id="_uBQaM8wqEeu7XeNvzCmsHw" name="cANTIDAD_BONUS">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>CANTIDAD_BONUS = cANTIDAD_BONUS;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_uBecoMwqEeu7XeNvzCmsHw" base_Element="_uBdOgMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uBfqwMwqEeu7XeNvzCmsHw" base_Element="_uBfDsMwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uBg44MwqEeu7XeNvzCmsHw" base_Element="_uBfqwcwqEeu7XeNvzCmsHw"/>
+  <UMLLabProfile:Reference xmi:id="_uBhf8swqEeu7XeNvzCmsHw" base_Element="_uBhf8MwqEeu7XeNvzCmsHw"/>
+</xmi:XMI>

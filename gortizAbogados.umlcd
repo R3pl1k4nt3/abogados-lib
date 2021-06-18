@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_kXmNwMwpEeu7XeNvzCmsHw">
+  <modelElement href="gortizAbogados.uml#_lbNm4MwpEeu7XeNvzCmsHw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mCqBYMwpEeu7XeNvzCmsHw" sourceAnchor="525.0,68.0" targetAnchor="420.0,156.0" target="_mD27ScwpEeu7XeNvzCmsHw" source="_mCu54MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmgQ4MwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXwHoMwpEeu7XeNvzCmsHw" sourceX="497" targetY="123"/>
+    <nameVisual xmi:id="_mCqocMwpEeu7XeNvzCmsHw" text="">
+      <visualProperties xmi:id="_mXzK8MwpEeu7XeNvzCmsHw" position="-236.59064758894658,-10.171704476717693"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mCqoccwpEeu7XeNvzCmsHw" aggregationKind="NONE" name="departamento" navigable="true">
+      <modelElement href="gortizAbogados.uml#_llouMMwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mXyj4MwpEeu7XeNvzCmsHw" position="14.736025790596955,-28.622478595294282"/>
+      <visibility xmi:id="_mCqocswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCqoc8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mCqodMwpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmgQ4cwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mXzK8cwpEeu7XeNvzCmsHw" position="-33.43533794341897,94.32286277517925"/>
+      <visibility xmi:id="_mCqodcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCqodswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mCuS0MwpEeu7XeNvzCmsHw" sourceAnchor="262.0,0.0" targetAnchor="0.0,78.0" target="_mD27ScwpEeu7XeNvzCmsHw" source="_mCu54MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmqo9MwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXwusMwpEeu7XeNvzCmsHw" sourceY="-133" targetX="-340"/>
+    <stereotypes xmi:id="_mCuS0cwpEeu7XeNvzCmsHw" name="Reference">
+      <modelElement href="gortizAbogados.uml#_lmrQAMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mCuS0swpEeu7XeNvzCmsHw" text="">
+      <visualProperties xmi:id="_mXzyAMwpEeu7XeNvzCmsHw" position="-20.171704476717707,-141.40935241105342"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mCuS08wpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmqo9cwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mXzK8swpEeu7XeNvzCmsHw" position="-13.538538557093034,-81.74312207790376"/>
+      <visibility xmi:id="_mCuS1MwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCuS1cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mCuS1swpEeu7XeNvzCmsHw" aggregationKind="NONE" name="empleados" navigable="true">
+      <modelElement href="gortizAbogados.uml#_lllD0cwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX0ZEMwpEeu7XeNvzCmsHw" position="-382.67713722482074,-360.564662056581"/>
+      <visibility xmi:id="_mCuS18wpEeu7XeNvzCmsHw" label="#"/>
+      <cardinality xmi:id="_mCuS2MwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mD2UMMwpEeu7XeNvzCmsHw" sourceAnchor="625.0,0.0" targetAnchor="409.0,213.0" target="_mEdYMMwpEeu7XeNvzCmsHw" source="_mD27ScwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmhfAswpEeu7XeNvzCmsHw"/>
+    <nameVisual xmi:id="_mD2UMcwpEeu7XeNvzCmsHw" text="">
+      <visualProperties xmi:id="_mX3cYMwpEeu7XeNvzCmsHw" position="-15.217730682603587,-51.62523243576595"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mD2UMswpEeu7XeNvzCmsHw" aggregationKind="NONE" name="empleado" navigable="true">
+      <modelElement href="gortizAbogados.uml#_lluNwMwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX1nMMwpEeu7XeNvzCmsHw" position="-45.29980955989686,-69.42302124699185"/>
+      <visibility xmi:id="_mD2UM8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD2UNMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mD2UNcwpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmhfA8wpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX4DcMwpEeu7XeNvzCmsHw" position="-18.001578853626143,-54.12960543323942"/>
+      <visibility xmi:id="_mD2UNswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD2UN8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mD27QMwpEeu7XeNvzCmsHw" sourceAnchor="420.0,0.0" targetAnchor="204.0,213.0" target="_mEdYMMwpEeu7XeNvzCmsHw" source="_mD27ScwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmrQAcwpEeu7XeNvzCmsHw"/>
+    <stereotypes xmi:id="_mD27QcwpEeu7XeNvzCmsHw" name="Reference">
+      <modelElement href="gortizAbogados.uml#_lmr3EMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mD27QswpEeu7XeNvzCmsHw" text="">
+      <visualProperties xmi:id="_mX7t0MwpEeu7XeNvzCmsHw" position="-28.217730682604042,-51.62523243576595"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mD27Q8wpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmrQAswpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX6fsMwpEeu7XeNvzCmsHw" position="-18.31080336146124,-69.31874786644298"/>
+      <visibility xmi:id="_mD27RMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27RcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mD27RswpEeu7XeNvzCmsHw" aggregationKind="NONE" name="sueldos" navigable="true">
+      <modelElement href="gortizAbogados.uml#_llngEcwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX8U4MwpEeu7XeNvzCmsHw" position="-38.0015788536266,-54.12960543323942"/>
+      <visibility xmi:id="_mD27R8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27SMwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mEcxIMwpEeu7XeNvzCmsHw" target="_mEdYMMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmhfAMwpEeu7XeNvzCmsHw"/>
+    <nameVisual xmi:id="_mEcxIcwpEeu7XeNvzCmsHw" text=""/>
+    <sourceRole xmi:id="_mEcxIswpEeu7XeNvzCmsHw" aggregationKind="NONE" name="fechaSueldo" navigable="true">
+      <modelElement href="gortizAbogados.uml#_lltmscwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEcxI8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEcxJMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mEcxJcwpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmhfAcwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEcxJswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEcxJ8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mFaacMwpEeu7XeNvzCmsHw" sourceAnchor="298.0,59.0" targetAnchor="262.0,137.0" superClass="_mCu54MwpEeu7XeNvzCmsHw" subClass="_mFpD8MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lkbNQcwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXxVwMwpEeu7XeNvzCmsHw" sourceX="362" targetY="114"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mFxm0MwpEeu7XeNvzCmsHw" sourceAnchor="955.0,106.0" targetAnchor="498.0,156.0" superClass="_mD27ScwpEeu7XeNvzCmsHw" subClass="_mF7-4MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lkllUMwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXxVwcwpEeu7XeNvzCmsHw" sourceX="172" targetY="675"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mGIMIMwpEeu7XeNvzCmsHw" sourceAnchor="451.0,0.0" targetAnchor="803.0,213.0" superClass="_mEdYMMwpEeu7XeNvzCmsHw" subClass="_mGNEoMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lkZYEcwpEeu7XeNvzCmsHw"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mGZR4MwpEeu7XeNvzCmsHw" sourceAnchor="226.0,50.0" targetAnchor="239.0,137.0" superClass="_mE3n4MwpEeu7XeNvzCmsHw" subClass="_mGbHEMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_ljy7IMwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXxVwswpEeu7XeNvzCmsHw" sourceX="1002" targetY="105"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mGn7YMwpEeu7XeNvzCmsHw" sourceAnchor="47.0,0.0" targetAnchor="213.0,71.0" superClass="_mGpwkMwpEeu7XeNvzCmsHw" subClass="_mGmGMMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lj5BwMwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXxVw8wpEeu7XeNvzCmsHw" sourceY="-28" targetX="-112" targetY="27"/>
+    <bendpoints xmi:id="_mXxVxMwpEeu7XeNvzCmsHw" sourceX="112" sourceY="-28" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mG0IoMwpEeu7XeNvzCmsHw" sourceAnchor="274.0,0.0" targetAnchor="93.0,30.0" target="_mGmGMMwpEeu7XeNvzCmsHw" source="_mG5BIMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmqB4MwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXx80MwpEeu7XeNvzCmsHw" sourceY="-258" targetX="228"/>
+    <stereotypes xmi:id="_mG2k48wpEeu7XeNvzCmsHw" name="Reference">
+      <modelElement href="gortizAbogados.uml#_lmqo8MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mG2k4MwpEeu7XeNvzCmsHw" text="">
+      <visualProperties xmi:id="_mX-KEMwpEeu7XeNvzCmsHw" position="-21.368056652128985,235.1162484833647"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mG2k4cwpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmqB4cwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX878MwpEeu7XeNvzCmsHw" position="-15.191875758317678,-81.17518149164027"/>
+      <visibility xmi:id="_mG3zAcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mG3zAMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mG2k4swpEeu7XeNvzCmsHw" aggregationKind="NONE" name="empleadoDAO" navigable="true">
+      <modelElement href="gortizAbogados.uml#_lljOoMwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX-KEcwpEeu7XeNvzCmsHw" position="173.2818894300981,266.1093248738153"/>
+      <visibility xmi:id="_mG3zA8wpEeu7XeNvzCmsHw" label="-"/>
+      <cardinality xmi:id="_mG3zAswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_mG1WwMwpEeu7XeNvzCmsHw" sourceAnchor="224.0,0.0" targetAnchor="213.0,71.0" dashed="true" superClass="_mGpwkMwpEeu7XeNvzCmsHw" subClass="_mG5BIMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lj_IYMwpEeu7XeNvzCmsHw"/>
+    <bendpoints xmi:id="_mXx80cwpEeu7XeNvzCmsHw" sourceY="-38" targetX="112" targetY="305"/>
+    <bendpoints xmi:id="_mXx80swpEeu7XeNvzCmsHw" sourceX="-804" sourceY="-38" targetX="-692" targetY="305"/>
+    <bendpoints xmi:id="_mXx808wpEeu7XeNvzCmsHw" sourceX="-804" sourceY="-316" targetX="-692" targetY="27"/>
+    <bendpoints xmi:id="_mXx81MwpEeu7XeNvzCmsHw" sourceX="-112" sourceY="-316" targetY="27"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_mHI4wMwpEeu7XeNvzCmsHw" sourceAnchor="565.0,0.0" targetAnchor="47.0,61.0" target="_mGmGMMwpEeu7XeNvzCmsHw" source="_mHQ0kMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lmqo8cwpEeu7XeNvzCmsHw"/>
+    <stereotypes xmi:id="_mHNKM8wpEeu7XeNvzCmsHw" name="Reference">
+      <modelElement href="gortizAbogados.uml#_lmqo88wpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_mHNKMMwpEeu7XeNvzCmsHw" text="">
+      <visualProperties xmi:id="_mYAmUMwpEeu7XeNvzCmsHw" position="-22.520044736180125,-127.50377302999843"/>
+    </nameVisual>
+    <sourceRole xmi:id="_mHNKMcwpEeu7XeNvzCmsHw" aggregationKind="NONE" name="">
+      <modelElement href="gortizAbogados.uml#_lmqo8swpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mX_YMMwpEeu7XeNvzCmsHw" position="-16.664032282036715,-80.49512517975819"/>
+      <visibility xmi:id="_mHPmccwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mHPmcMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_mHNKMswpEeu7XeNvzCmsHw" aggregationKind="NONE" name="empleadoDAO" navigable="true">
+      <modelElement href="gortizAbogados.uml#_llj1sMwpEeu7XeNvzCmsHw"/>
+      <visualProperties xmi:id="_mYAmUcwpEeu7XeNvzCmsHw" position="-55.462165917237826,-202.00563265727573"/>
+      <visibility xmi:id="_mHQNgMwpEeu7XeNvzCmsHw" label="-"/>
+      <cardinality xmi:id="_mHPmcswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mCu54MwpEeu7XeNvzCmsHw" name="Departamento" associationsOut="_mCqBYMwpEeu7XeNvzCmsHw _mCuS0MwpEeu7XeNvzCmsHw" subclassedBy="_mFaacMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mCu54cwpEeu7XeNvzCmsHw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mCu54swpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mCu548wpEeu7XeNvzCmsHw" name="nombreDepartamento">
+      <modelElement href="gortizAbogados.uml#_lllD0MwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mCu55MwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCu55cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mCu55swpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mCu558wpEeu7XeNvzCmsHw" name="empleados">
+      <modelElement href="gortizAbogados.uml#_lllD0cwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mCu56MwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lllq4swpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mCu56cwpEeu7XeNvzCmsHw" label="#"/>
+      <cardinality xmi:id="_mCu56swpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_mCu568wpEeu7XeNvzCmsHw" name="Empleado">
+        <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mCu57MwpEeu7XeNvzCmsHw" name="getEmpleados">
+      <modelElement href="gortizAbogados.uml#_le50EMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mCu57cwpEeu7XeNvzCmsHw" keyword="generic_container"/>
+      <visibility xmi:id="_mCu57swpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCu578wpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_mCu58MwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_le6bIMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mCu58cwpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mCu58swpEeu7XeNvzCmsHw" name="Departamento">
+      <modelElement href="gortizAbogados.uml#_le7CMMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mCu588wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mCu59MwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCu59cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mCu59swpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_le7CM8wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mCu598wpEeu7XeNvzCmsHw" name="Departamento">
+          <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mCu5-MwpEeu7XeNvzCmsHw" name="setEmpleados">
+      <modelElement href="gortizAbogados.uml#_llQTsMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mCu5-cwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCu5-swpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mCu5-8wpEeu7XeNvzCmsHw" name="empleados">
+        <modelElement href="gortizAbogados.uml#_llQTscwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mCu5_MwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mCu5_cwpEeu7XeNvzCmsHw" name="Collection">
+          <modelElement href="gortizAbogados.uml#_lkZ_IMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mCu5_swpEeu7XeNvzCmsHw" name="Departamento">
+      <modelElement href="gortizAbogados.uml#_llSI4MwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mCu5_8wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mCu6AMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mCu6AcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mCu6AswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llSI5cwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mCu6A8wpEeu7XeNvzCmsHw" name="Departamento">
+          <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mCu6BMwpEeu7XeNvzCmsHw" name="nombreDepartamento">
+        <modelElement href="gortizAbogados.uml#_llSI4cwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mCu6BcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mCu6BswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mCu6B8wpEeu7XeNvzCmsHw" name="empleados">
+        <modelElement href="gortizAbogados.uml#_llSI4swpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mCu6CMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mCu6CcwpEeu7XeNvzCmsHw" name="Collection">
+          <modelElement href="gortizAbogados.uml#_lkZ_IMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mD27ScwpEeu7XeNvzCmsHw" name="Empleado" associationsIn="_mCqBYMwpEeu7XeNvzCmsHw _mCuS0MwpEeu7XeNvzCmsHw" associationsOut="_mD2UMMwpEeu7XeNvzCmsHw _mD27QMwpEeu7XeNvzCmsHw" subclassedBy="_mFxm0MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mD27SswpEeu7XeNvzCmsHw" position="632.0,-181.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mD27S8wpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mD27TMwpEeu7XeNvzCmsHw" name="nombre">
+      <modelElement href="gortizAbogados.uml#_llmR8MwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mD27TcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27TswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mD27T8wpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mD27UMwpEeu7XeNvzCmsHw" name="apellidos">
+      <modelElement href="gortizAbogados.uml#_llm5AMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mD27UcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27UswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mD27U8wpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mD27VMwpEeu7XeNvzCmsHw" name="dni">
+      <modelElement href="gortizAbogados.uml#_llm5AcwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mD27VcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27VswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mD27V8wpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mD27WMwpEeu7XeNvzCmsHw" name="tipoEmpleado">
+      <modelElement href="gortizAbogados.uml#_llngEMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mD27WcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27WswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mD27W8wpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mD27XMwpEeu7XeNvzCmsHw" name="sueldos">
+      <modelElement href="gortizAbogados.uml#_llngEcwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mD27XcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27XswpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_mD27X8wpEeu7XeNvzCmsHw" name="Sueldo">
+        <modelElement href="gortizAbogados.uml#_lfBv4MwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mD27YMwpEeu7XeNvzCmsHw" name="departamento">
+      <modelElement href="gortizAbogados.uml#_llouMMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mD27YcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27YswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mD27Y8wpEeu7XeNvzCmsHw" name="Departamento">
+        <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mD27ZMwpEeu7XeNvzCmsHw" name="Empleado">
+      <modelElement href="gortizAbogados.uml#_le-FgMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mD27ZcwpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mD27ZswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27Z8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mD27aMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_le-Fg8wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mD27acwpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mD27aswpEeu7XeNvzCmsHw" name="Empleado">
+      <modelElement href="gortizAbogados.uml#_llVMMMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mD27a8wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mD27bMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mD27bcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mD27bswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llVzSMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mD27b8wpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mD27cMwpEeu7XeNvzCmsHw" name="nombre">
+        <modelElement href="gortizAbogados.uml#_llVzQMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mD27ccwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mD27cswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mD27c8wpEeu7XeNvzCmsHw" name="apellidos">
+        <modelElement href="gortizAbogados.uml#_llVzQcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mD27dMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mD27dcwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mD27dswpEeu7XeNvzCmsHw" name="dni">
+        <modelElement href="gortizAbogados.uml#_llVzQswpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mD27d8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mD27eMwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mD27ecwpEeu7XeNvzCmsHw" name="tipoEmpleado">
+        <modelElement href="gortizAbogados.uml#_llVzQ8wpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mD27eswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mD27e8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mD27fMwpEeu7XeNvzCmsHw" name="sueldos">
+        <modelElement href="gortizAbogados.uml#_llVzRMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mD27fcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mD27fswpEeu7XeNvzCmsHw" name="Collection">
+          <modelElement href="gortizAbogados.uml#_lkZ_IMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mD27f8wpEeu7XeNvzCmsHw" name="departamento">
+        <modelElement href="gortizAbogados.uml#_llVzRcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mD27gMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mD27gcwpEeu7XeNvzCmsHw" name="Departamento">
+          <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mEdYMMwpEeu7XeNvzCmsHw" name="Sueldo" associationsIn="_mD2UMMwpEeu7XeNvzCmsHw _mD27QMwpEeu7XeNvzCmsHw _mEcxIMwpEeu7XeNvzCmsHw" subclassedBy="_mGIMIMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lfBv4MwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mEdYMcwpEeu7XeNvzCmsHw" position="848.0,-449.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mEdYMswpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mEdYM8wpEeu7XeNvzCmsHw" defaultValue="300" name="CANTIDAD_BONUS" staticAttribute="true">
+      <modelElement href="gortizAbogados.uml#_llpVQMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mEdYNMwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_llp8UMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mEdYNcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEdYNswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEdYN8wpEeu7XeNvzCmsHw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mEdYOMwpEeu7XeNvzCmsHw" name="cantidadMensual">
+      <modelElement href="gortizAbogados.uml#_lls_oMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEdYOcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEdYOswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEdYO8wpEeu7XeNvzCmsHw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mEdYPMwpEeu7XeNvzCmsHw" name="horasExtras">
+      <modelElement href="gortizAbogados.uml#_lls_ocwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEdYPcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEdYPswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEdYP8wpEeu7XeNvzCmsHw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mEdYQMwpEeu7XeNvzCmsHw" name="bonus">
+      <modelElement href="gortizAbogados.uml#_lls_oswpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEdYQcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEdYQswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEdYQ8wpEeu7XeNvzCmsHw" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mEdYRMwpEeu7XeNvzCmsHw" name="total">
+      <modelElement href="gortizAbogados.uml#_lltmsMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEdYRcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEdYRswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEdYR8wpEeu7XeNvzCmsHw" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mEdYSMwpEeu7XeNvzCmsHw" name="fechaSueldo">
+      <modelElement href="gortizAbogados.uml#_lltmscwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEd_QMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEd_QcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEd_QswpEeu7XeNvzCmsHw" name="LocalDate">
+        <modelElement href="gortizAbogados.uml#_lkW70MwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mEd_Q8wpEeu7XeNvzCmsHw" name="empleado">
+      <modelElement href="gortizAbogados.uml#_lluNwMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEd_RMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEd_RcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mEd_RswpEeu7XeNvzCmsHw" name="Empleado">
+        <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mEd_R8wpEeu7XeNvzCmsHw" name="Sueldo">
+      <modelElement href="gortizAbogados.uml#_lfC-AMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mEd_SMwpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mEd_ScwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEd_SswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mEd_S8wpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfDlEswpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mEd_TMwpEeu7XeNvzCmsHw" name="Sueldo">
+          <modelElement href="gortizAbogados.uml#_lfBv4MwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mEd_TcwpEeu7XeNvzCmsHw" name="getSueldoTotalMes">
+      <modelElement href="gortizAbogados.uml#_lfEMIMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mEd_TswpEeu7XeNvzCmsHw" label="#"/>
+      <cardinality xmi:id="_mEd_T8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mEd_UMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llY2kMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mEd_UcwpEeu7XeNvzCmsHw" name="Double">
+          <modelElement href="gortizAbogados.uml#_llYPgMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mEd_UswpEeu7XeNvzCmsHw" name="Sueldo">
+      <modelElement href="gortizAbogados.uml#_llY2kcwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mEd_U8wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mEd_VMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mEd_VcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mEd_VswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llZdo8wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mEd_V8wpEeu7XeNvzCmsHw" name="Sueldo">
+          <modelElement href="gortizAbogados.uml#_lfBv4MwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mEd_WMwpEeu7XeNvzCmsHw" name="cantidadMensual">
+        <modelElement href="gortizAbogados.uml#_llY2kswpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mEd_WcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mEd_WswpEeu7XeNvzCmsHw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mEd_W8wpEeu7XeNvzCmsHw" name="horasExtras">
+        <modelElement href="gortizAbogados.uml#_llY2k8wpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mEd_XMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mEd_XcwpEeu7XeNvzCmsHw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mEd_XswpEeu7XeNvzCmsHw" name="bonus">
+        <modelElement href="gortizAbogados.uml#_llY2lMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mEd_X8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mEd_YMwpEeu7XeNvzCmsHw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mEd_YcwpEeu7XeNvzCmsHw" name="total">
+        <modelElement href="gortizAbogados.uml#_llY2lcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mEd_YswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mEd_Y8wpEeu7XeNvzCmsHw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mEd_ZMwpEeu7XeNvzCmsHw" name="fechaSueldo">
+        <modelElement href="gortizAbogados.uml#_llY2lswpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mEd_ZcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mEd_ZswpEeu7XeNvzCmsHw" name="LocalDate">
+          <modelElement href="gortizAbogados.uml#_lkW70MwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mEd_Z8wpEeu7XeNvzCmsHw" name="empleado">
+        <modelElement href="gortizAbogados.uml#_llZdoMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mEd_aMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mEd_acwpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mE3n4MwpEeu7XeNvzCmsHw" name="Usuario" subclassedBy="_mGZR4MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lfQZYMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mE4O8MwpEeu7XeNvzCmsHw" position="637.0,223.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mE4O8cwpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mE4O8swpEeu7XeNvzCmsHw" name="email">
+      <modelElement href="gortizAbogados.uml#_llu00MwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mE4O88wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mE4O9MwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mE4O9cwpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mE4O9swpEeu7XeNvzCmsHw" name="username">
+      <modelElement href="gortizAbogados.uml#_llu00cwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mE4O98wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mE4O-MwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mE4O-cwpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_mE4O-swpEeu7XeNvzCmsHw" name="passwd">
+      <modelElement href="gortizAbogados.uml#_llu00swpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mE4O-8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mE4O_MwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mE4O_cwpEeu7XeNvzCmsHw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mE4O_swpEeu7XeNvzCmsHw" name="Usuario">
+      <modelElement href="gortizAbogados.uml#_lfRngMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mE4O_8wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mE4PAMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mE4PAcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mE4PAswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfSOkcwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mE4PA8wpEeu7XeNvzCmsHw" name="Usuario">
+          <modelElement href="gortizAbogados.uml#_lfQZYMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mE4PBMwpEeu7XeNvzCmsHw" name="Usuario">
+      <modelElement href="gortizAbogados.uml#_llarwMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mE4PBcwpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mE4PBswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mE4PB8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mE4PCMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llarx8wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mE4PCcwpEeu7XeNvzCmsHw" name="Usuario">
+          <modelElement href="gortizAbogados.uml#_lfQZYMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mE4PCswpEeu7XeNvzCmsHw" name="id">
+        <modelElement href="gortizAbogados.uml#_llarwcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mE4PC8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mE4PDMwpEeu7XeNvzCmsHw" name="Long">
+          <modelElement href="gortizAbogados.uml#_lk8KoMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mE4PDcwpEeu7XeNvzCmsHw" name="email">
+        <modelElement href="gortizAbogados.uml#_llarwswpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mE4PDswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mE4PD8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mE4PEMwpEeu7XeNvzCmsHw" name="username">
+        <modelElement href="gortizAbogados.uml#_llarw8wpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mE4PEcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mE4PEswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mE4PE8wpEeu7XeNvzCmsHw" name="passwd">
+        <modelElement href="gortizAbogados.uml#_llarxMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mE4PFMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mE4PFcwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mE_jsMwpEeu7XeNvzCmsHw" name="GortizAbogadosApplication">
+    <modelElement href="gortizAbogados.uml#_lfUDwMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mE_jscwpEeu7XeNvzCmsHw" position="-615.0,-267.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mE_jsswpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mE_js8wpEeu7XeNvzCmsHw" name="main" staticOperation="true">
+      <modelElement href="gortizAbogados.uml#_lfVR4MwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mE_jtMwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfV48MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mE_jtcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mE_jtswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mE_jt8wpEeu7XeNvzCmsHw" name="args">
+        <modelElement href="gortizAbogados.uml#_lfVR4cwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mE_juMwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_mE_jucwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mFB_8MwpEeu7XeNvzCmsHw" name="GortizAbogadosApplicationTests">
+    <modelElement href="gortizAbogados.uml#_leqjgMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mFB_8cwpEeu7XeNvzCmsHw" position="-615.0,279.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mFB_8swpEeu7XeNvzCmsHw" label="~"/>
+    <operations xmi:id="_mFB_88wpEeu7XeNvzCmsHw" name="contextLoads">
+      <modelElement href="gortizAbogados.uml#_lerxo8wpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mFB_9MwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lesYsMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mFB_9cwpEeu7XeNvzCmsHw" label="~"/>
+      <cardinality xmi:id="_mFB_9swpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mFNmIMwpEeu7XeNvzCmsHw" name="ConfiguracionPorJava">
+    <modelElement href="gortizAbogados.uml#_ldSDcMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mFNmIcwpEeu7XeNvzCmsHw" position="-678.0,423.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mFNmIswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_ldXjAMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mFNmI8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_ldpP0MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mFNmJMwpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mFNmJcwpEeu7XeNvzCmsHw" name="getObjectMapper">
+      <modelElement href="gortizAbogados.uml#_ldamUMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mFNmJswpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_ldkXUMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mFNmJ8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mFNmKMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mFONMMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lk6VcMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mFONMcwpEeu7XeNvzCmsHw" name="ObjectMapper">
+          <modelElement href="gortizAbogados.uml#_ljs0gcwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mFONMswpEeu7XeNvzCmsHw" name="corsFilter">
+      <modelElement href="gortizAbogados.uml#_ldmMgMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mFONM8wpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_ldnaoMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mFONNMwpEeu7XeNvzCmsHw" label="~"/>
+      <cardinality xmi:id="_mFONNcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mFONNswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lk68gMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mFONN8wpEeu7XeNvzCmsHw" name="CorsFilter">
+          <modelElement href="gortizAbogados.uml#_ljsNcMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mFWJAMwpEeu7XeNvzCmsHw" name="GortizAbogadosApiApplication">
+    <modelElement href="gortizAbogados.uml#_ldrFAMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mFWJAcwpEeu7XeNvzCmsHw" position="-881.0,282.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mFWJAswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_lds6MMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mFWJA8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_ldvWcMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mFWJBMwpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mFWJBcwpEeu7XeNvzCmsHw" name="main" staticOperation="true">
+      <modelElement href="gortizAbogados.uml#_lduIUMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mFWJBswpEeu7XeNvzCmsHw" name="StyledElement">
+        <modelElement href="gortizAbogados.uml#_lduvYMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mFWJB8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mFWJCMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_mFWJCcwpEeu7XeNvzCmsHw" name="args">
+        <modelElement href="gortizAbogados.uml#_lduIUcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mFWJCswpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_mFWJC8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mFpD8MwpEeu7XeNvzCmsHw" name="DepartamentoConId" generalizations="_mFaacMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_le1ioMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mFpD8cwpEeu7XeNvzCmsHw" position="-368.0,222.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mFpD8swpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mFpD88wpEeu7XeNvzCmsHw" name="id">
+      <modelElement href="gortizAbogados.uml#_llkcwcwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mFpD9MwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mFpD9cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mFpD9swpEeu7XeNvzCmsHw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mFpD98wpEeu7XeNvzCmsHw" name="getEmpleados">
+      <modelElement href="gortizAbogados.uml#_le2JscwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mFpD-MwpEeu7XeNvzCmsHw" keyword="generic_container"/>
+      <stereotypes xmi:id="_mFpD-cwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_le2wwswpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mFpD-swpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_le2ww8wpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mFpD-8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mFpD_MwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_mFpD_cwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_le2JsswpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mFpD_swpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mFpD_8wpEeu7XeNvzCmsHw" name="DepartamentoConId">
+      <modelElement href="gortizAbogados.uml#_le3X1cwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mFpEAMwpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mFpEAcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mFpEAswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mFpEA8wpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_le3-4cwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mFpEBMwpEeu7XeNvzCmsHw" name="DepartamentoConId">
+          <modelElement href="gortizAbogados.uml#_le1ioMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mFpEBcwpEeu7XeNvzCmsHw" name="getNombreDepartamento">
+      <modelElement href="gortizAbogados.uml#_le3-4swpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mFpEBswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_le3-5MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mFpEB8wpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_le4l8MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mFpECMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mFpECcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mFpECswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_le3-48wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mFpEC8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mF7-4MwpEeu7XeNvzCmsHw" name="EmpleadoConId" generalizations="_mFxm0MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_lfWgAMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mF7-4cwpEeu7XeNvzCmsHw" position="3.0,544.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mF7-4swpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mF7-48wpEeu7XeNvzCmsHw" name="id">
+      <modelElement href="gortizAbogados.uml#_llvb4MwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mF7-5MwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7-5cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mF7-5swpEeu7XeNvzCmsHw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mF7-58wpEeu7XeNvzCmsHw" name="getSueldos">
+      <modelElement href="gortizAbogados.uml#_lfXuIMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mF7-6MwpEeu7XeNvzCmsHw" keyword="generic_container"/>
+      <stereotypes xmi:id="_mF7-6cwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfYVMswpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mF7-6swpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lfY8QMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mF7-68wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7-7MwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_mF7-7cwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfXuIcwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7-7swpEeu7XeNvzCmsHw" name="Sueldo">
+          <modelElement href="gortizAbogados.uml#_lfBv4MwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7-78wpEeu7XeNvzCmsHw" name="getDepartamento">
+      <modelElement href="gortizAbogados.uml#_lfZjVMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mF7-8MwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfaKYMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mF7-8cwpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lfaKYcwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mF7-8swpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7-88wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7-9MwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lkk-QMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7-9cwpEeu7XeNvzCmsHw" name="Departamento">
+          <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7-9swpEeu7XeNvzCmsHw" name="getNombre">
+      <modelElement href="gortizAbogados.uml#_lfaxdMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mF7-98wpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfb_kMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mF7--MwpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lfcmoMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mF7--cwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7--swpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7--8wpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfbYgMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7-_MwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7-_cwpEeu7XeNvzCmsHw" name="getApellidos">
+      <modelElement href="gortizAbogados.uml#_lfcmoswpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mF7-_swpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfdNscwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mF7-_8wpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lfd0wMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mF7_AMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7_AcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7_AswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfdNsMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7_A8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7_BMwpEeu7XeNvzCmsHw" name="getDni">
+      <modelElement href="gortizAbogados.uml#_lfd0wswpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mF7_BcwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfd0xMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mF7_BswpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lfeb0MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mF7_B8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7_CMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7_CcwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfd0w8wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7_CswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7_C8wpEeu7XeNvzCmsHw" name="getTipoEmpleado">
+      <modelElement href="gortizAbogados.uml#_lfeb0swpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mF7_DMwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lfeb1MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mF7_DcwpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lffC4MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mF7_DswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7_D8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7_EMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lfeb08wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7_EcwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7_EswpEeu7XeNvzCmsHw" name="EmpleadoConId">
+      <modelElement href="gortizAbogados.uml#_lffC4swpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mF7_E8wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mF7_FMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7_FcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7_FswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lffC5cwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7_F8wpEeu7XeNvzCmsHw" name="EmpleadoConId">
+          <modelElement href="gortizAbogados.uml#_lfWgAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mF7_GMwpEeu7XeNvzCmsHw" name="EmpleadoConId">
+      <modelElement href="gortizAbogados.uml#_llcg8MwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mF7_GcwpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mF7_GswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mF7_G8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mF7_HMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lldIBMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mF7_HcwpEeu7XeNvzCmsHw" name="EmpleadoConId">
+          <modelElement href="gortizAbogados.uml#_lfWgAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mF7_HswpEeu7XeNvzCmsHw" name="nombre">
+        <modelElement href="gortizAbogados.uml#_llcg8cwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_H8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_IMwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mF7_IcwpEeu7XeNvzCmsHw" name="apellidos">
+        <modelElement href="gortizAbogados.uml#_llcg8swpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_IswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_I8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mF7_JMwpEeu7XeNvzCmsHw" name="dni">
+        <modelElement href="gortizAbogados.uml#_llcg88wpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_JcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_JswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mF7_J8wpEeu7XeNvzCmsHw" name="tipoEmpleado">
+        <modelElement href="gortizAbogados.uml#_llcg9MwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_KMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_KcwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mF7_KswpEeu7XeNvzCmsHw" name="sueldos">
+        <modelElement href="gortizAbogados.uml#_llcg9cwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_K8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_LMwpEeu7XeNvzCmsHw" name="Collection">
+          <modelElement href="gortizAbogados.uml#_lkZ_IMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mF7_LcwpEeu7XeNvzCmsHw" name="departamento">
+        <modelElement href="gortizAbogados.uml#_lldIAMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_LswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_L8wpEeu7XeNvzCmsHw" name="Departamento">
+          <modelElement href="gortizAbogados.uml#_le5NAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mF7_MMwpEeu7XeNvzCmsHw" name="id">
+        <modelElement href="gortizAbogados.uml#_lldIAcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mF7_McwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mF7_MswpEeu7XeNvzCmsHw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mGNEoMwpEeu7XeNvzCmsHw" name="SueldoConId" generalizations="_mGIMIMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_les_wMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mGNEocwpEeu7XeNvzCmsHw" position="1200.0,78.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mGNEoswpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mGNEo8wpEeu7XeNvzCmsHw" name="id">
+      <modelElement href="gortizAbogados.uml#_llkcwMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mGNEpMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGNEpcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mGNEpswpEeu7XeNvzCmsHw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mGNEp8wpEeu7XeNvzCmsHw" name="getEmpleado">
+      <modelElement href="gortizAbogados.uml#_leuN4MwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mGNEqMwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_leu08MwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mGNEqcwpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_leu08cwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mGNEqswpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGNEq8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGNErMwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lkZYEMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGNErcwpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mGNErswpEeu7XeNvzCmsHw" name="SueldoConId">
+      <modelElement href="gortizAbogados.uml#_lewqIMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mGNEr8wpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mGNEsMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGNEscwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGNEsswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lex4QMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGNEs8wpEeu7XeNvzCmsHw" name="SueldoConId">
+          <modelElement href="gortizAbogados.uml#_les_wMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_mGNEtMwpEeu7XeNvzCmsHw" name="calcularTotal">
+      <modelElement href="gortizAbogados.uml#_leyfUMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mGNEtcwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lezGYMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mGNEtswpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_leztcMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mGNEt8wpEeu7XeNvzCmsHw" label="~"/>
+      <cardinality xmi:id="_mGNEuMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_mGNEucwpEeu7XeNvzCmsHw" name="SueldoConId">
+      <modelElement href="gortizAbogados.uml#_llMpUMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mGNEuswpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mGNEu8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGNEvMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGNEvcwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llN3cswpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGNEvswpEeu7XeNvzCmsHw" name="SueldoConId">
+          <modelElement href="gortizAbogados.uml#_les_wMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mGNEv8wpEeu7XeNvzCmsHw" name="cantidadMensual">
+        <modelElement href="gortizAbogados.uml#_llMpUcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNEwMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNEwcwpEeu7XeNvzCmsHw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGNEwswpEeu7XeNvzCmsHw" name="horasExtras">
+        <modelElement href="gortizAbogados.uml#_llNQYMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNEw8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNExMwpEeu7XeNvzCmsHw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGNExcwpEeu7XeNvzCmsHw" name="bonus">
+        <modelElement href="gortizAbogados.uml#_llNQYcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNExswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNEx8wpEeu7XeNvzCmsHw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGNEyMwpEeu7XeNvzCmsHw" name="total">
+        <modelElement href="gortizAbogados.uml#_llNQYswpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNEycwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNEyswpEeu7XeNvzCmsHw" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGNEy8wpEeu7XeNvzCmsHw" name="fechaSueldo">
+        <modelElement href="gortizAbogados.uml#_llNQY8wpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNEzMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNEzcwpEeu7XeNvzCmsHw" name="LocalDate">
+          <modelElement href="gortizAbogados.uml#_lkW70MwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGNEzswpEeu7XeNvzCmsHw" name="empleado">
+        <modelElement href="gortizAbogados.uml#_llNQZMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNEz8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNE0MwpEeu7XeNvzCmsHw" name="Empleado">
+          <modelElement href="gortizAbogados.uml#_le83YMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mGNE0cwpEeu7XeNvzCmsHw" name="id">
+        <modelElement href="gortizAbogados.uml#_llNQZcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGNE0swpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGNE08wpEeu7XeNvzCmsHw" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mGbHEMwpEeu7XeNvzCmsHw" name="UsuarioConId" generalizations="_mGZR4MwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_ldwkkMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mGbHEcwpEeu7XeNvzCmsHw" position="-352.0,415.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mGbHEswpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mGbHE8wpEeu7XeNvzCmsHw" name="id">
+      <modelElement href="gortizAbogados.uml#_llinkMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mGbHFMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGbHFcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mGbHFswpEeu7XeNvzCmsHw" name="Long">
+        <modelElement href="gortizAbogados.uml#_lk8KoMwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mGbHF8wpEeu7XeNvzCmsHw" name="UsuarioConId">
+      <modelElement href="gortizAbogados.uml#_ldzA0MwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mGbHGMwpEeu7XeNvzCmsHw" keyword="create"/>
+      <visibility xmi:id="_mGbHGcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGbHGswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGbHG8wpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_ld0O8MwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGbHHMwpEeu7XeNvzCmsHw" name="UsuarioConId">
+          <modelElement href="gortizAbogados.uml#_ldwkkMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mGf_kMwpEeu7XeNvzCmsHw" name="DepartamentoDAO">
+    <modelElement href="gortizAbogados.uml#_ld6VkMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mGf_kcwpEeu7XeNvzCmsHw" position="-773.0,591.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mGf_kswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_ld-nAMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mGf_k8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_leBqUMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mGf_lMwpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mGf_lcwpEeu7XeNvzCmsHw" name="findByNombreDepartamento">
+      <modelElement href="gortizAbogados.uml#_ld_1IMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mGf_lswpEeu7XeNvzCmsHw" name="StyledElement">
+        <modelElement href="gortizAbogados.uml#_leAcMcwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mGf_l8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGf_mMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGf_mcwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lj3zoMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGf_mswpEeu7XeNvzCmsHw" name="DepartamentoConId">
+          <modelElement href="gortizAbogados.uml#_le1ioMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mGf_m8wpEeu7XeNvzCmsHw" name="nombreDepartamento">
+        <modelElement href="gortizAbogados.uml#_leAcMMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGf_nMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGf_ncwpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mGjp8MwpEeu7XeNvzCmsHw" name="DepartamentoDAOCustom">
+    <modelElement href="gortizAbogados.uml#_leDfgMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mGjp8cwpEeu7XeNvzCmsHw" position="-772.0,757.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mGjp8swpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mGjp88wpEeu7XeNvzCmsHw" name="findByNombreDepartamento">
+      <modelElement href="gortizAbogados.uml#_leFUsMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mGjp9MwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mGjp9cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mGjp9swpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lj4asMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGjp98wpEeu7XeNvzCmsHw" name="DepartamentoConId">
+          <modelElement href="gortizAbogados.uml#_le1ioMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mGjp-MwpEeu7XeNvzCmsHw" name="nombreDepartamento">
+        <modelElement href="gortizAbogados.uml#_leFUscwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGjp-cwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGjp-swpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mGmGMMwpEeu7XeNvzCmsHw" name="EmpleadoDAO" associationsIn="_mG0IoMwpEeu7XeNvzCmsHw _mHI4wMwpEeu7XeNvzCmsHw" generalizations="_mGn7YMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_leGi0MwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mGmGMcwpEeu7XeNvzCmsHw" position="-1246.0,141.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mGmGMswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_leHJ4MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mGmGM8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_leHw8MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mGmGNMwpEeu7XeNvzCmsHw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mGpwkMwpEeu7XeNvzCmsHw" name="EmpleadoDAOCustom" subclassedBy="_mGn7YMwpEeu7XeNvzCmsHw _mG1WwMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_leKNMMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mGpwkcwpEeu7XeNvzCmsHw" position="-1300.0,15.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mGpwkswpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mGpwk8wpEeu7XeNvzCmsHw" name="getEmpleadosPorTipo">
+      <modelElement href="gortizAbogados.uml#_leLbUMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mGpwlMwpEeu7XeNvzCmsHw" label="~"/>
+      <cardinality xmi:id="_mGpwlcwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_mGpwlswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_leLbUswpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mGpwl8wpEeu7XeNvzCmsHw" name="EmpleadoConId">
+          <modelElement href="gortizAbogados.uml#_lfWgAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mGpwmMwpEeu7XeNvzCmsHw" name="tipoEmpleado">
+        <modelElement href="gortizAbogados.uml#_leLbUcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mGpwmcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mGpwmswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mG5BIMwpEeu7XeNvzCmsHw" name="EmpleadoDAOImpl" associationsOut="_mG0IoMwpEeu7XeNvzCmsHw" generalizations="_mG1WwMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_leMpcMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mG5BIcwpEeu7XeNvzCmsHw" position="-1199.0,429.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mG5BIswpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mG5BI8wpEeu7XeNvzCmsHw" name="empleadoDAO">
+      <modelElement href="gortizAbogados.uml#_lljOoMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mG5BJMwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_lljOocwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mG5BJcwpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lljOoswpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mG5BJswpEeu7XeNvzCmsHw" label="-"/>
+      <cardinality xmi:id="_mG5BJ8wpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mG5BKMwpEeu7XeNvzCmsHw" name="EmpleadoDAO">
+        <modelElement href="gortizAbogados.uml#_leGi0MwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mG5BKcwpEeu7XeNvzCmsHw" name="getEmpleadosPorTipo">
+      <modelElement href="gortizAbogados.uml#_leNQgMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mG5BKswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+        <modelElement href="gortizAbogados.uml#_leN3kswpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mG5BK8wpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_leOeoMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mG5BLMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mG5BLcwpEeu7XeNvzCmsHw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_mG5BLswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_leN3kMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mG5BL8wpEeu7XeNvzCmsHw" name="EmpleadoConId">
+          <modelElement href="gortizAbogados.uml#_lfWgAMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mG5BMMwpEeu7XeNvzCmsHw" name="tipoEmpleado">
+        <modelElement href="gortizAbogados.uml#_leNQgcwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mG5BMcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mG5BMswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mG9SkMwpEeu7XeNvzCmsHw" name="SueldoDAO">
+    <modelElement href="gortizAbogados.uml#_lePswMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mG9SkcwpEeu7XeNvzCmsHw" position="-921.0,534.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mG9SkswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_leQT0MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mG9Sk8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_leQT0cwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mG9SlMwpEeu7XeNvzCmsHw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mHA88MwpEeu7XeNvzCmsHw" name="SueldoDAOCustom">
+    <modelElement href="gortizAbogados.uml#_leQ64cwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHA88cwpEeu7XeNvzCmsHw" position="-203.0,556.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mHA88swpEeu7XeNvzCmsHw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mHCyIMwpEeu7XeNvzCmsHw" name="UsuarioDAO">
+    <modelElement href="gortizAbogados.uml#_leRh88wpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHCyIcwpEeu7XeNvzCmsHw" position="-1022.0,254.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mHCyIswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_leSwEMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mHCyI8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_leTXIMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mHCyJMwpEeu7XeNvzCmsHw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mHFOYMwpEeu7XeNvzCmsHw" name="ConfiguracionRest">
+    <modelElement href="gortizAbogados.uml#_lfg4EMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHFOYcwpEeu7XeNvzCmsHw" position="-66.0,406.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mHFOYswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_lfhfI8wpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mHFOY8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_lfiGMMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mHFOZMwpEeu7XeNvzCmsHw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mHQ0kMwpEeu7XeNvzCmsHw" name="EmpleadoController" associationsOut="_mHI4wMwpEeu7XeNvzCmsHw">
+    <modelElement href="gortizAbogados.uml#_legLcMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHRboMwpEeu7XeNvzCmsHw" position="-1764.0,257.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mHRbocwpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_lejOwMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mHRboswpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_lem5IMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mHRbo8wpEeu7XeNvzCmsHw" label="+"/>
+    <attributes xmi:id="_mHRbpMwpEeu7XeNvzCmsHw" name="empleadoDAO">
+      <modelElement href="gortizAbogados.uml#_llj1sMwpEeu7XeNvzCmsHw"/>
+      <visibility xmi:id="_mHRbpcwpEeu7XeNvzCmsHw" label="-"/>
+      <cardinality xmi:id="_mHRbpswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <type xmi:id="_mHRbp8wpEeu7XeNvzCmsHw" name="EmpleadoDAO">
+        <modelElement href="gortizAbogados.uml#_leGi0MwpEeu7XeNvzCmsHw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_mHRbqMwpEeu7XeNvzCmsHw" name="EmpleadoController">
+      <modelElement href="gortizAbogados.uml#_lkUfkMwpEeu7XeNvzCmsHw"/>
+      <keywords xmi:id="_mHRbqcwpEeu7XeNvzCmsHw" keyword="create"/>
+      <stereotypes xmi:id="_mHRbqswpEeu7XeNvzCmsHw" name="StyledElement">
+        <modelElement href="gortizAbogados.uml#_lkVGpMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mHRbq8wpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mHRbrMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mHRbrcwpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lkVGo8wpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mHRbrswpEeu7XeNvzCmsHw" name="EmpleadoController">
+          <modelElement href="gortizAbogados.uml#_legLcMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mHRbr8wpEeu7XeNvzCmsHw" name="empleadoDAO">
+        <modelElement href="gortizAbogados.uml#_lkVGoMwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mHRbsMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mHRbscwpEeu7XeNvzCmsHw" name="EmpleadoDAO">
+          <modelElement href="gortizAbogados.uml#_leGi0MwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_mHRbsswpEeu7XeNvzCmsHw" name="getEmpleadosPorTipo">
+      <modelElement href="gortizAbogados.uml#_llF7oMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mHRbs8wpEeu7XeNvzCmsHw" name="Generics">
+        <modelElement href="gortizAbogados.uml#_llGisMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_mHRbtMwpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_llHw0swpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mHRbtcwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mHRbtswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mHRbt8wpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_llHJwMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mHRbuMwpEeu7XeNvzCmsHw" name="CollectionModel">
+          <modelElement href="gortizAbogados.uml#_lkKukMwpEeu7XeNvzCmsHw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_mHRbucwpEeu7XeNvzCmsHw" name="assembler">
+        <modelElement href="gortizAbogados.uml#_llF7ocwpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mHRbuswpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mHRbu8wpEeu7XeNvzCmsHw" name="PersistentEntityResourceAssembler">
+          <modelElement href="gortizAbogados.uml#_lkISUcwpEeu7XeNvzCmsHw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_mHRbvMwpEeu7XeNvzCmsHw" name="tipoEmpleado">
+        <modelElement href="gortizAbogados.uml#_llF7oswpEeu7XeNvzCmsHw"/>
+        <cardinality xmi:id="_mHRbvcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+        <type xmi:id="_mHRbvswpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mHVtEMwpEeu7XeNvzCmsHw" name="Mixins">
+    <modelElement href="gortizAbogados.uml#_leXBgswpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHVtEcwpEeu7XeNvzCmsHw" position="-1035.0,540.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_mHVtEswpEeu7XeNvzCmsHw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mHXiQMwpEeu7XeNvzCmsHw" name="DepartamentoConId">
+    <modelElement href="gortizAbogados.uml#_leZdwMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHXiQcwpEeu7XeNvzCmsHw" position="-1134.0,647.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_mHXiQswpEeu7XeNvzCmsHw" keyword="static"/>
+    <stereotypes xmi:id="_mHXiQ8wpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_leaE0MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mHXiRMwpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_lebS8MwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mHXiRcwpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mHXiRswpEeu7XeNvzCmsHw" abstractOperation="true" name="getNombreDepartamento">
+      <modelElement href="gortizAbogados.uml#_leaE0cwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mHXiR8wpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_lear4cwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mHXiSMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mHXiScwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mHXiSswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_lear4MwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mHXiS8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_mHe3AMwpEeu7XeNvzCmsHw" name="Empleado">
+    <modelElement href="gortizAbogados.uml#_lebS88wpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHe3AcwpEeu7XeNvzCmsHw" position="-1507.0,408.0" size="-1.0,-1.0"/>
+    <keywords xmi:id="_mHe3AswpEeu7XeNvzCmsHw" keyword="static"/>
+    <stereotypes xmi:id="_mHe3A8wpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_leb6AMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mHe3BMwpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_lee9UMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mHe3BcwpEeu7XeNvzCmsHw" label="+"/>
+    <operations xmi:id="_mHe3BswpEeu7XeNvzCmsHw" abstractOperation="true" name="getTipoEmpleado">
+      <modelElement href="gortizAbogados.uml#_lechEMwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mHe3B8wpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_leeWQMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mHe3CMwpEeu7XeNvzCmsHw" label="+"/>
+      <cardinality xmi:id="_mHe3CcwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_mHe3CswpEeu7XeNvzCmsHw">
+        <modelElement href="gortizAbogados.uml#_ledIIMwpEeu7XeNvzCmsHw"/>
+        <type xmi:id="_mHe3C8wpEeu7XeNvzCmsHw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_mHh6UMwpEeu7XeNvzCmsHw" name="GortizAbogadosApiApplicationTests">
+    <modelElement href="gortizAbogados.uml#_leT-MMwpEeu7XeNvzCmsHw"/>
+    <visualProperties xmi:id="_mHh6UcwpEeu7XeNvzCmsHw" position="-1422.0,605.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_mHh6UswpEeu7XeNvzCmsHw" name="LegacyStyledElement">
+      <modelElement href="gortizAbogados.uml#_leVMUMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <stereotypes xmi:id="_mHh6U8wpEeu7XeNvzCmsHw" name="Annotations">
+      <modelElement href="gortizAbogados.uml#_leXBgMwpEeu7XeNvzCmsHw"/>
+    </stereotypes>
+    <visibility xmi:id="_mHh6VMwpEeu7XeNvzCmsHw" label="~"/>
+    <operations xmi:id="_mHh6VcwpEeu7XeNvzCmsHw" name="contextLoads">
+      <modelElement href="gortizAbogados.uml#_leVMUcwpEeu7XeNvzCmsHw"/>
+      <stereotypes xmi:id="_mHh6VswpEeu7XeNvzCmsHw" name="Annotations">
+        <modelElement href="gortizAbogados.uml#_leWacMwpEeu7XeNvzCmsHw"/>
+      </stereotypes>
+      <visibility xmi:id="_mHh6V8wpEeu7XeNvzCmsHw" label="~"/>
+      <cardinality xmi:id="_mHh6WMwpEeu7XeNvzCmsHw" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
