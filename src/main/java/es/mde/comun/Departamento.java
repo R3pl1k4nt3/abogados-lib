@@ -6,7 +6,7 @@ public class Departamento {
 
 	private String nombreDepartamento;
 
-	protected Collection<Empleado> empleados;
+	private Collection<Empleado> empleados;
 
 	public Collection<Empleado> getEmpleados() {
 		return empleados;

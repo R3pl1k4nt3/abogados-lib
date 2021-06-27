@@ -80,12 +80,12 @@ public class Sueldo {
 		
 		if (horasExtras > 0) {
 			
-			cantidadMensual = cantidadMensual + (horasExtras) * 10;
+			total = cantidadMensual + (horasExtras) * 10;
 		}
 		if (bonus = true) {
-			cantidadMensual = cantidadMensual + CANTIDAD_BONUS;
+			total = cantidadMensual + CANTIDAD_BONUS;
 		}
-		return cantidadMensual;
+		return total;
 
 	}
 
