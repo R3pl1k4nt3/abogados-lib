@@ -10,7 +10,6 @@ public class Sueldo {
 	private double cantidadMensual;
 	private int horasExtras;
 	private boolean bonus;
-//	private double total;
 	private LocalDate fechaSueldo;
 	private Empleado empleado;
 	
@@ -55,14 +54,6 @@ public class Sueldo {
 		this.bonus = bonus;
 	}
 
-//	public double getTotal() {
-//		return total;
-//	}
-//
-//	public void setTotal(double total) {
-//		this.total = total;
-//	}
-
 	public LocalDate getFechaSueldo() {
 		return fechaSueldo;
 	}
@@ -76,28 +67,14 @@ public class Sueldo {
 		super();
 	}
 
-//	protected Double getSueldoTotalMes() {
-//		
-//		if (horasExtras > 0) {
-//			
-//			total = cantidadMensual + (horasExtras) * 10;
-//		}
-//		if (bonus = true) {
-//			total = cantidadMensual + CANTIDAD_BONUS;
-//		}
-//		return total;
-//
-//	}
-
-	public Sueldo(double cantidadMensual, int horasExtras, boolean bonus, LocalDate fechaSueldo,
-			Empleado empleado) {
+	public Sueldo(double cantidadMensual, int horasExtras, boolean bonus, LocalDate fechaSueldo, Empleado empleado) {
 		super();
 		this.cantidadMensual = cantidadMensual;
 		this.horasExtras = horasExtras;
 		this.bonus = bonus;
-		
 		this.fechaSueldo = fechaSueldo;
 		this.empleado = empleado;
 	}
+
 
 }
